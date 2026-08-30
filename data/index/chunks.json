@@ -1,0 +1,2198 @@
+[
+  {
+    "chunk_id": "CARD-001-S1::p1",
+    "text": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)\nSection 1: Overview\n[clause id: CARD-001-S1]\n\n[clause id: CARD-001-S1]\n\nStage 2 Arterial Pressure Elevation Syndrome (APES) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with vasodilating agents.",
+    "metadata": {
+      "document_id": "CARD-001",
+      "source": "SYN-GUIDE-CARD-001",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "CARD-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-001_care_pathway_apes.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-001-S2::p1",
+    "text": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)\nSection 2: First-Line Management\n[clause id: CARD-001-S2]\n\n[clause id: CARD-001-S2]\n\nFirst-line management of APES consists of initiating Cardaprilol at 5-10 mg once daily, alongside structured lifestyle counseling. Strength of recommendation: Strong.\n\nThis applies to patients with an estimated glomerular filtration rate (eGFR) of 45 mL/min/1.73m2 or above. For patients with eGFR between 30 and 44, the starting dose of Cardaprilol should be halved to 2.5-5 mg once daily. Below an eGFR of 30, Cardaprilol should not be initiated at all; a nephrology-cleared alternative should be selected instead (see Section 5).",
+    "metadata": {
+      "document_id": "CARD-001",
+      "source": "SYN-GUIDE-CARD-001",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "CARD-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-001_care_pathway_apes.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-001-S3::p1",
+    "text": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)\nSection 3: Second-Line Management\n[clause id: CARD-001-S3]\n\n[clause id: CARD-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Rhythmostat at 25-50 mg twice daily. Strength of recommendation: Conditional. Rhythmostat is not recommended as a substitute for Cardaprilol in treatment-naive patients \u2014 it is an add-on agent only, not a first-line alternative, even in patients who report difficulty tolerating Cardaprilol's common side effects.",
+    "metadata": {
+      "document_id": "CARD-001",
+      "source": "SYN-GUIDE-CARD-001",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "CARD-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-001_care_pathway_apes.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-001-S4::p1",
+    "text": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)\nSection 4: Monitoring\n[clause id: CARD-001-S4]\n\n[clause id: CARD-001-S4]\n\nPatients on therapy for APES should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects.",
+    "metadata": {
+      "document_id": "CARD-001",
+      "source": "SYN-GUIDE-CARD-001",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "CARD-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-001_care_pathway_apes.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-001-S5::p1",
+    "text": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)\nSection 5: Special Populations\n[clause id: CARD-001-S5]\n\n[clause id: CARD-001-S5]\n\nFor patients with eGFR below 30 mL/min/1.73m2 who cannot receive Cardaprilol per Section 2, refer to Nephrology Agent Dosing and Contraindication Reference (SYN-GUIDE-NEPH-003), Section 5, for the specific renal-safe alternative and reduced-dose regimen before initiating any vasodilating agent. Pregnant patients should not receive Rhythmostat under any circumstance, regardless of trimester; Cardaprilol at the lowest effective dose is preferred with obstetric co-management.",
+    "metadata": {
+      "document_id": "CARD-001",
+      "source": "SYN-GUIDE-CARD-001",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Stage 2 Arterial Pressure Elevation Syndrome (APES)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 5: Special Populations",
+      "clause_id": "CARD-001-S5",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-001_care_pathway_apes.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-002-S1::p1",
+    "text": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)\nSection 1: Overview\n[clause id: CARD-002-S1]\n\n[clause id: CARD-002-S1]\n\nChronic Rhythm Irregularity Disorder (CRID) is a synthetic chronic condition within cardiology requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "CARD-002",
+      "source": "SYN-GUIDE-CARD-002",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "CARD-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-002_care_pathway_crid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-002-S2::p1",
+    "text": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)\nSection 2: First-Line Management\n[clause id: CARD-002-S2]\n\n[clause id: CARD-002-S2]\n\nInitial management of CRID involves Flowtensin at 2.5 mg once daily, titrate to 10 mg. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "CARD-002",
+      "source": "SYN-GUIDE-CARD-002",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "CARD-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-002_care_pathway_crid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-002-S3::p1",
+    "text": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)\nSection 3: Second-Line Management\n[clause id: CARD-002-S3]\n\n[clause id: CARD-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Cardiology. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "CARD-002",
+      "source": "SYN-GUIDE-CARD-002",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "CARD-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-002_care_pathway_crid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-002-S4::p1",
+    "text": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)\nSection 4: Monitoring\n[clause id: CARD-002-S4]\n\n[clause id: CARD-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for CRID, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "CARD-002",
+      "source": "SYN-GUIDE-CARD-002",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Rhythm Irregularity Disorder (CRID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "CARD-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-002_care_pathway_crid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-003-S1::p1",
+    "text": "Cardiology Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: CARD-003-S1]\n\n[clause id: CARD-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used vasodilating agents in cardiology.",
+    "metadata": {
+      "document_id": "CARD-003",
+      "source": "SYN-GUIDE-CARD-003",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "CARD-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-003-S2::p1",
+    "text": "Cardiology Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: CARD-003-S2]\n\n[clause id: CARD-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Cardaprilol | 5-10 mg once daily | severe renal artery narrowing |\n| Rhythmostat | 25-50 mg twice daily | second-degree conduction block |\n| Flowtensin | 2.5 mg once daily, titrate to 10 mg | pregnancy |\n\nFlowtensin should not be titrated beyond 10 mg once daily under any circumstance; doses above this threshold have shown no additional benefit in the reference population and increase orthostatic hypotension risk.\n\n**Renal dose adjustment (Cardaprilol only):**\n\n| eGFR (mL/min/1.73m2) | Adjusted Dose |\n|---|---|\n| \u2265 45 | 5-10 mg once daily (standard) |\n| 30-44 | 2.5-5 mg once daily |\n| < 30 | Do not initiate; select alternative per Section 3 |",
+    "metadata": {
+      "document_id": "CARD-003",
+      "source": "SYN-GUIDE-CARD-003",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "CARD-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-003-S3::p1",
+    "text": "Cardiology Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: CARD-003-S3]\n\n[clause id: CARD-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Cardaprilol additionally requires caution in patients with a history of hypersensitivity reactions to related compounds.",
+    "metadata": {
+      "document_id": "CARD-003",
+      "source": "SYN-GUIDE-CARD-003",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "CARD-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-003-S4::p1",
+    "text": "Cardiology Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: CARD-003-S4]\n\n[clause id: CARD-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance.",
+    "metadata": {
+      "document_id": "CARD-003",
+      "source": "SYN-GUIDE-CARD-003",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "CARD-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-004-S1::p1",
+    "text": "Cardiology Referral Criteria\nSection 1: Overview\n[clause id: CARD-004-S1]\n\n[clause id: CARD-004-S1]\n\nThis document defines when a patient managed under cardiology guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "CARD-004",
+      "source": "SYN-GUIDE-CARD-004",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "CARD-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-004-S2::p1",
+    "text": "Cardiology Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: CARD-004-S2]\n\n[clause id: CARD-004-S2]\n\nUrgent same-day referral is warranted for: sustained resting heart rate above 150 bpm, chest pain with exertion lasting more than 10 minutes, or syncope within the past 48 hours.",
+    "metadata": {
+      "document_id": "CARD-004",
+      "source": "SYN-GUIDE-CARD-004",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "CARD-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-004-S3::p1",
+    "text": "Cardiology Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: CARD-004-S3]\n\n[clause id: CARD-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: blood pressure remaining above target after 3 consecutive monthly readings on maximum tolerated therapy.",
+    "metadata": {
+      "document_id": "CARD-004",
+      "source": "SYN-GUIDE-CARD-004",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "CARD-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-004-S4::p1",
+    "text": "Cardiology Referral Criteria\nSection 4: Follow-up\n[clause id: CARD-004-S4]\n\n[clause id: CARD-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "CARD-004",
+      "source": "SYN-GUIDE-CARD-004",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "CARD-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-005-S1::p1",
+    "text": "Cardiology Comorbidity Management Pathway\nSection 1: Overview\n[clause id: CARD-005-S1]\n\n[clause id: CARD-005-S1]\n\nPatients managed long-term under cardiology guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "CARD-005",
+      "source": "SYN-GUIDE-CARD-005",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "CARD-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-005-S2::p1",
+    "text": "Cardiology Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: CARD-005-S2]\n\n[clause id: CARD-005-S2]\n\nThe most frequently observed comorbidities in this population are renal impairment and early heart failure. Screening for these should occur at routine follow-up visits.",
+    "metadata": {
+      "document_id": "CARD-005",
+      "source": "SYN-GUIDE-CARD-005",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "CARD-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-005-S3::p1",
+    "text": "Cardiology Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: CARD-005-S3]\n\n[clause id: CARD-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "CARD-005",
+      "source": "SYN-GUIDE-CARD-005",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "CARD-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "CARD-005-S4::p1",
+    "text": "Cardiology Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: CARD-005-S4]\n\n[clause id: CARD-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "CARD-005",
+      "source": "SYN-GUIDE-CARD-005",
+      "specialty": "Cardiology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Cardiology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "CARD-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\CARD-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-001-S1::p1",
+    "text": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)\nSection 1: Overview\n[clause id: ENDO-001-S1]\n\n[clause id: ENDO-001-S1]\n\nType S Glycemic Dysregulation Syndrome (GDS) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with glycemic-modulating agents.",
+    "metadata": {
+      "document_id": "ENDO-001",
+      "source": "SYN-GUIDE-ENDO-001",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ENDO-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-001_care_pathway_gds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-001-S2::p1",
+    "text": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)\nSection 2: First-Line Management\n[clause id: ENDO-001-S2]\n\n[clause id: ENDO-001-S2]\n\nFirst-line management of GDS consists of initiating Glucostabin at 500 mg twice daily with meals, alongside structured lifestyle counseling. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "ENDO-001",
+      "source": "SYN-GUIDE-ENDO-001",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "ENDO-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-001_care_pathway_gds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-001-S3::p1",
+    "text": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)\nSection 3: Second-Line Management\n[clause id: ENDO-001-S3]\n\n[clause id: ENDO-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Thyronorm-S at 50-100 mcg once daily on empty stomach. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "ENDO-001",
+      "source": "SYN-GUIDE-ENDO-001",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "ENDO-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-001_care_pathway_gds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-001-S4::p1",
+    "text": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)\nSection 4: Monitoring\n[clause id: ENDO-001-S4]\n\n[clause id: ENDO-001-S4]\n\nPatients on therapy for GDS should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects.",
+    "metadata": {
+      "document_id": "ENDO-001",
+      "source": "SYN-GUIDE-ENDO-001",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Type S Glycemic Dysregulation Syndrome (GDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ENDO-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-001_care_pathway_gds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-002-S1::p1",
+    "text": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)\nSection 1: Overview\n[clause id: ENDO-002-S1]\n\n[clause id: ENDO-002-S1]\n\nThyroid Hormone Imbalance Disorder (THID) is a synthetic chronic condition within endocrinology requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "ENDO-002",
+      "source": "SYN-GUIDE-ENDO-002",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ENDO-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-002_care_pathway_thid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-002-S2::p1",
+    "text": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)\nSection 2: First-Line Management\n[clause id: ENDO-002-S2]\n\n[clause id: ENDO-002-S2]\n\nInitial management of THID involves Insulyx at 0.2-0.4 units/kg/day, individually titrated. Strength of recommendation: Strong. This applies to adults under 65 with no cardiac history. In patients aged 65 or older, or with any history of arrhythmia, start at the lower end of the range (0.2 units/kg/day) and titrate no faster than every 4-6 weeks rather than at the standard pace.",
+    "metadata": {
+      "document_id": "ENDO-002",
+      "source": "SYN-GUIDE-ENDO-002",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "ENDO-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-002_care_pathway_thid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-002-S3::p1",
+    "text": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)\nSection 3: Second-Line Management\n[clause id: ENDO-002-S3]\n\n[clause id: ENDO-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Endocrinology. Strength of recommendation: Conditional. Insulyx dose increases should not be made in response to a single elevated reading \u2014 only after a confirmed pattern across at least two consecutive measurements.",
+    "metadata": {
+      "document_id": "ENDO-002",
+      "source": "SYN-GUIDE-ENDO-002",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "ENDO-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-002_care_pathway_thid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-002-S4::p1",
+    "text": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)\nSection 4: Monitoring\n[clause id: ENDO-002-S4]\n\n[clause id: ENDO-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for THID, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "ENDO-002",
+      "source": "SYN-GUIDE-ENDO-002",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Thyroid Hormone Imbalance Disorder (THID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ENDO-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-002_care_pathway_thid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-003-S1::p1",
+    "text": "Endocrinology Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: ENDO-003-S1]\n\n[clause id: ENDO-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used glycemic-modulating agents in endocrinology.",
+    "metadata": {
+      "document_id": "ENDO-003",
+      "source": "SYN-GUIDE-ENDO-003",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ENDO-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-003-S2::p1",
+    "text": "Endocrinology Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: ENDO-003-S2]\n\n[clause id: ENDO-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Glucostabin | 500 mg twice daily with meals | severe hepatic impairment |\n| Thyronorm-S | 50-100 mcg once daily on empty stomach | untreated adrenal insufficiency |\n| Insulyx | 0.2-0.4 units/kg/day, individually titrated | active hypoglycemia unawareness |",
+    "metadata": {
+      "document_id": "ENDO-003",
+      "source": "SYN-GUIDE-ENDO-003",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "ENDO-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-003-S3::p1",
+    "text": "Endocrinology Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: ENDO-003-S3]\n\n[clause id: ENDO-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Glucostabin additionally requires caution in patients with a history of hypersensitivity reactions to related compounds.",
+    "metadata": {
+      "document_id": "ENDO-003",
+      "source": "SYN-GUIDE-ENDO-003",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "ENDO-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-003-S4::p1",
+    "text": "Endocrinology Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: ENDO-003-S4]\n\n[clause id: ENDO-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance.",
+    "metadata": {
+      "document_id": "ENDO-003",
+      "source": "SYN-GUIDE-ENDO-003",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "ENDO-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-004-S1::p1",
+    "text": "Endocrinology Referral Criteria\nSection 1: Overview\n[clause id: ENDO-004-S1]\n\n[clause id: ENDO-004-S1]\n\nThis document defines when a patient managed under endocrinology guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "ENDO-004",
+      "source": "SYN-GUIDE-ENDO-004",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ENDO-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-004-S2::p1",
+    "text": "Endocrinology Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: ENDO-004-S2]\n\n[clause id: ENDO-004-S2]\n\nUrgent same-day referral is warranted for: blood glucose sustained above 350 mg/dL with ketosis, or a new thyroid storm presentation (fever, tachycardia, agitation). Note the distinction: blood glucose above 350 mg/dL *without* ketosis does not on its own meet urgent criteria \u2014 it should be treated as routine follow-up with a repeat reading within 24-48 hours unless other urgent features are present.",
+    "metadata": {
+      "document_id": "ENDO-004",
+      "source": "SYN-GUIDE-ENDO-004",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "ENDO-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-004-S3::p1",
+    "text": "Endocrinology Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: ENDO-004-S3]\n\n[clause id: ENDO-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: HbA1c remaining above target after two consecutive quarterly reviews despite therapy adjustment.",
+    "metadata": {
+      "document_id": "ENDO-004",
+      "source": "SYN-GUIDE-ENDO-004",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "ENDO-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-004-S4::p1",
+    "text": "Endocrinology Referral Criteria\nSection 4: Follow-up\n[clause id: ENDO-004-S4]\n\n[clause id: ENDO-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "ENDO-004",
+      "source": "SYN-GUIDE-ENDO-004",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "ENDO-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-005-S1::p1",
+    "text": "Endocrinology Comorbidity Management Pathway\nSection 1: Overview\n[clause id: ENDO-005-S1]\n\n[clause id: ENDO-005-S1]\n\nPatients managed long-term under endocrinology guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "ENDO-005",
+      "source": "SYN-GUIDE-ENDO-005",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ENDO-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-005-S2::p1",
+    "text": "Endocrinology Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: ENDO-005-S2]\n\n[clause id: ENDO-005-S2]\n\nThe most frequently observed comorbidities in this population are chronic kidney disease and cardiovascular risk factors. Screening for these should occur at routine follow-up visits.",
+    "metadata": {
+      "document_id": "ENDO-005",
+      "source": "SYN-GUIDE-ENDO-005",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "ENDO-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-005-S3::p1",
+    "text": "Endocrinology Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: ENDO-005-S3]\n\n[clause id: ENDO-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "ENDO-005",
+      "source": "SYN-GUIDE-ENDO-005",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "ENDO-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ENDO-005-S4::p1",
+    "text": "Endocrinology Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: ENDO-005-S4]\n\n[clause id: ENDO-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "ENDO-005",
+      "source": "SYN-GUIDE-ENDO-005",
+      "specialty": "Endocrinology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Endocrinology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ENDO-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ENDO-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-001-S1::p1",
+    "text": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)\nSection 1: Overview\n[clause id: ID-001-S1]\n\n[clause id: ID-001-S1]\n\nSystemic Microbial Response Syndrome (SMRS) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with anti-infective agents.",
+    "metadata": {
+      "document_id": "ID-001",
+      "source": "SYN-GUIDE-ID-001",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ID-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-001_care_pathway_smrs.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-001-S2::p1",
+    "text": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)\nSection 2: First-Line Management\n[clause id: ID-001-S2]\n\n[clause id: ID-001-S2]\n\nFirst-line management of SMRS consists of initiating Bactrizole at 500 mg every 8 hours for 7-10 days, alongside structured lifestyle counseling. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "ID-001",
+      "source": "SYN-GUIDE-ID-001",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "ID-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-001_care_pathway_smrs.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-001-S3::p1",
+    "text": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)\nSection 3: Second-Line Management\n[clause id: ID-001-S3]\n\n[clause id: ID-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Microfend at 1 g intravenously every 12 hours. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "ID-001",
+      "source": "SYN-GUIDE-ID-001",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "ID-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-001_care_pathway_smrs.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-001-S4::p1",
+    "text": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)\nSection 4: Monitoring\n[clause id: ID-001-S4]\n\n[clause id: ID-001-S4]\n\nPatients on therapy for SMRS should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects.",
+    "metadata": {
+      "document_id": "ID-001",
+      "source": "SYN-GUIDE-ID-001",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Systemic Microbial Response Syndrome (SMRS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ID-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-001_care_pathway_smrs.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-002-S1::p1",
+    "text": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)\nSection 1: Overview\n[clause id: ID-002-S1]\n\n[clause id: ID-002-S1]\n\nRecurrent Soft-Tissue Infection Disorder (RSTID) is a synthetic chronic condition within infectious disease requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "ID-002",
+      "source": "SYN-GUIDE-ID-002",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ID-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-002_care_pathway_rstid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-002-S2::p1",
+    "text": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)\nSection 2: First-Line Management\n[clause id: ID-002-S2]\n\n[clause id: ID-002-S2]\n\nInitial management of RSTID involves Infectiguard-X at 100 mg twice daily for 14 days. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "ID-002",
+      "source": "SYN-GUIDE-ID-002",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "ID-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-002_care_pathway_rstid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-002-S3::p1",
+    "text": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)\nSection 3: Second-Line Management\n[clause id: ID-002-S3]\n\n[clause id: ID-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Infectious Disease. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "ID-002",
+      "source": "SYN-GUIDE-ID-002",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "ID-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-002_care_pathway_rstid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-002-S4::p1",
+    "text": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)\nSection 4: Monitoring\n[clause id: ID-002-S4]\n\n[clause id: ID-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for RSTID, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "ID-002",
+      "source": "SYN-GUIDE-ID-002",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Soft-Tissue Infection Disorder (RSTID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ID-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-002_care_pathway_rstid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-003-S1::p1",
+    "text": "Infectious Disease Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: ID-003-S1]\n\n[clause id: ID-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used anti-infective agents in infectious disease.",
+    "metadata": {
+      "document_id": "ID-003",
+      "source": "SYN-GUIDE-ID-003",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ID-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-003-S2::p1",
+    "text": "Infectious Disease Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: ID-003-S2]\n\n[clause id: ID-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Bactrizole | 500 mg every 8 hours for 7-10 days | known QT prolongation |\n| Microfend | 1 g intravenously every 12 hours | severe egg protein allergy |\n| Infectiguard-X | 100 mg twice daily for 14 days | concurrent use with anticoagulants |",
+    "metadata": {
+      "document_id": "ID-003",
+      "source": "SYN-GUIDE-ID-003",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "ID-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-003-S3::p1",
+    "text": "Infectious Disease Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: ID-003-S3]\n\n[clause id: ID-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Bactrizole additionally requires caution in patients with a history of hypersensitivity reactions to related compounds. Bactrizole should not be combined with Infectiguard-X despite both being oral agents with non-overlapping primary contraindications \u2014 the combination is specifically flagged in Section 4 due to additive QT prolongation risk, which is not captured by either drug's individual contraindication alone.",
+    "metadata": {
+      "document_id": "ID-003",
+      "source": "SYN-GUIDE-ID-003",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "ID-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-003-S4::p1",
+    "text": "Infectious Disease Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: ID-003-S4]\n\n[clause id: ID-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance. Bactrizole and Infectiguard-X specifically should not be prescribed together: both agents independently carry a mild QT-prolonging effect that is additive in combination, even though neither drug lists the other as a primary contraindication. If both indications are present, complete a full course of one agent before starting the other, with an ECG check prior to switching.",
+    "metadata": {
+      "document_id": "ID-003",
+      "source": "SYN-GUIDE-ID-003",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "ID-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-004-S1::p1",
+    "text": "Infectious Disease Referral Criteria\nSection 1: Overview\n[clause id: ID-004-S1]\n\n[clause id: ID-004-S1]\n\nThis document defines when a patient managed under infectious disease guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "ID-004",
+      "source": "SYN-GUIDE-ID-004",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ID-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-004-S2::p1",
+    "text": "Infectious Disease Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: ID-004-S2]\n\n[clause id: ID-004-S2]\n\nUrgent same-day referral is warranted for: fever above 39.5\u00b0C with hypotension, spreading skin necrosis, or altered mental status.",
+    "metadata": {
+      "document_id": "ID-004",
+      "source": "SYN-GUIDE-ID-004",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "ID-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-004-S3::p1",
+    "text": "Infectious Disease Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: ID-004-S3]\n\n[clause id: ID-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: recurrence of the same infection site more than twice within 6 months. A single recurrence, or two recurrences spaced more than 6 months apart, does not meet this threshold and should be managed in primary care with standard first-line therapy repeated.",
+    "metadata": {
+      "document_id": "ID-004",
+      "source": "SYN-GUIDE-ID-004",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "ID-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-004-S4::p1",
+    "text": "Infectious Disease Referral Criteria\nSection 4: Follow-up\n[clause id: ID-004-S4]\n\n[clause id: ID-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "ID-004",
+      "source": "SYN-GUIDE-ID-004",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "ID-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-005-S1::p1",
+    "text": "Infectious Disease Comorbidity Management Pathway\nSection 1: Overview\n[clause id: ID-005-S1]\n\n[clause id: ID-005-S1]\n\nPatients managed long-term under infectious disease guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "ID-005",
+      "source": "SYN-GUIDE-ID-005",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "ID-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-005-S2::p1",
+    "text": "Infectious Disease Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: ID-005-S2]\n\n[clause id: ID-005-S2]\n\nThe most frequently observed comorbidities in this population are diabetes-related impaired wound healing. Screening for these should occur at routine follow-up visits.",
+    "metadata": {
+      "document_id": "ID-005",
+      "source": "SYN-GUIDE-ID-005",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "ID-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-005-S3::p1",
+    "text": "Infectious Disease Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: ID-005-S3]\n\n[clause id: ID-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "ID-005",
+      "source": "SYN-GUIDE-ID-005",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "ID-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "ID-005-S4::p1",
+    "text": "Infectious Disease Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: ID-005-S4]\n\n[clause id: ID-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "ID-005",
+      "source": "SYN-GUIDE-ID-005",
+      "specialty": "Infectious Disease",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Infectious Disease Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "ID-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\ID-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-001-S1::p1",
+    "text": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)\nSection 1: Overview\n[clause id: NEPH-001-S1]\n\n[clause id: NEPH-001-S1]\n\nProgressive Renal Filtration Decline Syndrome (PRFDS) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with renal-protective agents.",
+    "metadata": {
+      "document_id": "NEPH-001",
+      "source": "SYN-GUIDE-NEPH-001",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "NEPH-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-001_care_pathway_prfds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-001-S2::p1",
+    "text": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)\nSection 2: First-Line Management\n[clause id: NEPH-001-S2]\n\n[clause id: NEPH-001-S2]\n\nFirst-line management of PRFDS consists of initiating Nephrostat at 2.5 mg once daily, adjust for eGFR, alongside structured lifestyle counseling. Strength of recommendation: Strong.\n\n**Do not:**\n- Initiate Nephrostat in patients with confirmed bilateral renal artery stenosis (absolute contraindication, see dosing reference)\n- Increase the dose within the first 2 weeks regardless of response \u2014 early titration is associated with acute kidney injury in the reference population",
+    "metadata": {
+      "document_id": "NEPH-001",
+      "source": "SYN-GUIDE-NEPH-001",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "NEPH-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-001_care_pathway_prfds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-001-S3::p1",
+    "text": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)\nSection 3: Second-Line Management\n[clause id: NEPH-001-S3]\n\n[clause id: NEPH-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Kalibind at 15 g once daily with food. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "NEPH-001",
+      "source": "SYN-GUIDE-NEPH-001",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "NEPH-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-001_care_pathway_prfds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-001-S4::p1",
+    "text": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)\nSection 4: Monitoring\n[clause id: NEPH-001-S4]\n\n[clause id: NEPH-001-S4]\n\nPatients on therapy for PRFDS should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects.",
+    "metadata": {
+      "document_id": "NEPH-001",
+      "source": "SYN-GUIDE-NEPH-001",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Progressive Renal Filtration Decline Syndrome (PRFDS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "NEPH-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-001_care_pathway_prfds.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-002-S1::p1",
+    "text": "Care Pathway: Electrolyte Regulation Disorder (ERD)\nSection 1: Overview\n[clause id: NEPH-002-S1]\n\n[clause id: NEPH-002-S1]\n\nElectrolyte Regulation Disorder (ERD) is a synthetic chronic condition within nephrology requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "NEPH-002",
+      "source": "SYN-GUIDE-NEPH-002",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Electrolyte Regulation Disorder (ERD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "NEPH-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-002_care_pathway_erd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-002-S2::p1",
+    "text": "Care Pathway: Electrolyte Regulation Disorder (ERD)\nSection 2: First-Line Management\n[clause id: NEPH-002-S2]\n\n[clause id: NEPH-002-S2]\n\nInitial management of ERD involves Filtrexan at 5-10 mg once daily. Strength of recommendation: Strong. This applies when serum potassium is between 5.1 and 6.4 mmol/L. At or above 6.5 mmol/L, this is an urgent presentation per the referral criteria document and initial management should not proceed outpatient \u2014 Filtrexan initiation in that range should only begin after acute management in an urgent care setting.",
+    "metadata": {
+      "document_id": "NEPH-002",
+      "source": "SYN-GUIDE-NEPH-002",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Electrolyte Regulation Disorder (ERD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "NEPH-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-002_care_pathway_erd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-002-S3::p1",
+    "text": "Care Pathway: Electrolyte Regulation Disorder (ERD)\nSection 3: Second-Line Management\n[clause id: NEPH-002-S3]\n\n[clause id: NEPH-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Nephrology. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "NEPH-002",
+      "source": "SYN-GUIDE-NEPH-002",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Electrolyte Regulation Disorder (ERD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "NEPH-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-002_care_pathway_erd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-002-S4::p1",
+    "text": "Care Pathway: Electrolyte Regulation Disorder (ERD)\nSection 4: Monitoring\n[clause id: NEPH-002-S4]\n\n[clause id: NEPH-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for ERD, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "NEPH-002",
+      "source": "SYN-GUIDE-NEPH-002",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Electrolyte Regulation Disorder (ERD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "NEPH-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-002_care_pathway_erd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-003-S1::p1",
+    "text": "Nephrology Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: NEPH-003-S1]\n\n[clause id: NEPH-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used renal-protective agents in nephrology.",
+    "metadata": {
+      "document_id": "NEPH-003",
+      "source": "SYN-GUIDE-NEPH-003",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "NEPH-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-003-S2::p1",
+    "text": "Nephrology Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: NEPH-003-S2]\n\n[clause id: NEPH-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Nephrostat | 2.5 mg once daily, adjust for eGFR | bilateral renal artery stenosis |\n| Kalibind | 15 g once daily with food | bowel obstruction |\n| Filtrexan | 5-10 mg once daily | eGFR below 15 mL/min/1.73m2 untreated |",
+    "metadata": {
+      "document_id": "NEPH-003",
+      "source": "SYN-GUIDE-NEPH-003",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "NEPH-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-003-S3::p1",
+    "text": "Nephrology Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: NEPH-003-S3]\n\n[clause id: NEPH-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Nephrostat additionally requires caution in patients with a history of hypersensitivity reactions to related compounds.",
+    "metadata": {
+      "document_id": "NEPH-003",
+      "source": "SYN-GUIDE-NEPH-003",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "NEPH-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-003-S4::p1",
+    "text": "Nephrology Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: NEPH-003-S4]\n\n[clause id: NEPH-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance.",
+    "metadata": {
+      "document_id": "NEPH-003",
+      "source": "SYN-GUIDE-NEPH-003",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "NEPH-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-003-S5::p1",
+    "text": "Nephrology Agent Dosing and Contraindication Reference\nSection 5: Cross-Specialty Alternative for Severe Renal Impairment\n[clause id: NEPH-003-S5]\n\n[clause id: NEPH-003-S5]\n\nFor patients who cannot receive Cardaprilol (see Cardiology Care Pathway, SYN-GUIDE-CARD-001) due to an eGFR below 30 mL/min/1.73m2, Nephrostat may be used as a renal-safe alternative at a reduced dose of 1.25 mg once daily, provided there is no bilateral renal artery stenosis. This reduced dose applies down to an eGFR of 15 mL/min/1.73m2; below that threshold, nephrology co-management is required before initiating any agent from this table.",
+    "metadata": {
+      "document_id": "NEPH-003",
+      "source": "SYN-GUIDE-NEPH-003",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 5: Cross-Specialty Alternative for Severe Renal Impairment",
+      "clause_id": "NEPH-003-S5",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-004-S1::p1",
+    "text": "Nephrology Referral Criteria\nSection 1: Overview\n[clause id: NEPH-004-S1]\n\n[clause id: NEPH-004-S1]\n\nThis document defines when a patient managed under nephrology guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "NEPH-004",
+      "source": "SYN-GUIDE-NEPH-004",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "NEPH-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-004-S2::p1",
+    "text": "Nephrology Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: NEPH-004-S2]\n\n[clause id: NEPH-004-S2]\n\nUrgent same-day referral is warranted for: potassium at or above 6.5 mmol/L, anuria for more than 12 hours, or rapidly rising creatinine over 48 hours.",
+    "metadata": {
+      "document_id": "NEPH-004",
+      "source": "SYN-GUIDE-NEPH-004",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "NEPH-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-004-S3::p1",
+    "text": "Nephrology Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: NEPH-004-S3]\n\n[clause id: NEPH-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: eGFR decline of more than 25% over 12 months despite optimized therapy.",
+    "metadata": {
+      "document_id": "NEPH-004",
+      "source": "SYN-GUIDE-NEPH-004",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "NEPH-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-004-S4::p1",
+    "text": "Nephrology Referral Criteria\nSection 4: Follow-up\n[clause id: NEPH-004-S4]\n\n[clause id: NEPH-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "NEPH-004",
+      "source": "SYN-GUIDE-NEPH-004",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "NEPH-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-005-S1::p1",
+    "text": "Nephrology Comorbidity Management Pathway\nSection 1: Overview\n[clause id: NEPH-005-S1]\n\n[clause id: NEPH-005-S1]\n\nPatients managed long-term under nephrology guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "NEPH-005",
+      "source": "SYN-GUIDE-NEPH-005",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "NEPH-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-005-S2::p1",
+    "text": "Nephrology Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: NEPH-005-S2]\n\n[clause id: NEPH-005-S2]\n\nThe most frequently observed comorbidities in this population are secondary hyperparathyroidism and anemia of chronic disease. Screening for these should occur at routine follow-up visits.",
+    "metadata": {
+      "document_id": "NEPH-005",
+      "source": "SYN-GUIDE-NEPH-005",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "NEPH-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-005-S3::p1",
+    "text": "Nephrology Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: NEPH-005-S3]\n\n[clause id: NEPH-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "NEPH-005",
+      "source": "SYN-GUIDE-NEPH-005",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "NEPH-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "NEPH-005-S4::p1",
+    "text": "Nephrology Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: NEPH-005-S4]\n\n[clause id: NEPH-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "NEPH-005",
+      "source": "SYN-GUIDE-NEPH-005",
+      "specialty": "Nephrology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Nephrology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "NEPH-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\NEPH-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-001-S1::p1",
+    "text": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)\nSection 1: Overview\n[clause id: RESP-001-S1]\n\n[clause id: RESP-001-S1]\n\nChronic Airway Restriction Syndrome (CARS) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with bronchodilating agents.",
+    "metadata": {
+      "document_id": "RESP-001",
+      "source": "SYN-GUIDE-RESP-001",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RESP-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-001_care_pathway_cars.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-001-S2::p1",
+    "text": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)\nSection 2: First-Line Management\n[clause id: RESP-001-S2]\n\n[clause id: RESP-001-S2]\n\nFirst-line management of CARS consists of initiating Bronchaline at 2 puffs (90 mcg) every 6 hours as needed, alongside structured lifestyle counseling. Strength of recommendation: Strong. Current smokers should be offered a structured cessation program alongside first-line therapy rather than after it \u2014 delaying cessation support until second-line escalation is not supported by this pathway.",
+    "metadata": {
+      "document_id": "RESP-001",
+      "source": "SYN-GUIDE-RESP-001",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "RESP-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-001_care_pathway_cars.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-001-S3::p1",
+    "text": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)\nSection 3: Second-Line Management\n[clause id: RESP-001-S3]\n\n[clause id: RESP-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Airoflux at 250 mcg twice daily via inhaler. Strength of recommendation: Conditional. Airoflux is not an as-needed rescue inhaler and should not be prescribed in place of Bronchaline for acute symptom relief \u2014 it is a scheduled maintenance add-on only.",
+    "metadata": {
+      "document_id": "RESP-001",
+      "source": "SYN-GUIDE-RESP-001",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "RESP-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-001_care_pathway_cars.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-001-S4::p1",
+    "text": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)\nSection 4: Monitoring\n[clause id: RESP-001-S4]\n\n[clause id: RESP-001-S4]\n\nPatients on therapy for CARS should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects.",
+    "metadata": {
+      "document_id": "RESP-001",
+      "source": "SYN-GUIDE-RESP-001",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Airway Restriction Syndrome (CARS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RESP-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-001_care_pathway_cars.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-002-S1::p1",
+    "text": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)\nSection 1: Overview\n[clause id: RESP-002-S1]\n\n[clause id: RESP-002-S1]\n\nRecurrent Bronchial Inflammation Disorder (RBID) is a synthetic chronic condition within respiratory medicine requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "RESP-002",
+      "source": "SYN-GUIDE-RESP-002",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RESP-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-002_care_pathway_rbid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-002-S2::p1",
+    "text": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)\nSection 2: First-Line Management\n[clause id: RESP-002-S2]\n\n[clause id: RESP-002-S2]\n\nInitial management of RBID involves Respiguard at 40 mg once daily. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "RESP-002",
+      "source": "SYN-GUIDE-RESP-002",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "RESP-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-002_care_pathway_rbid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-002-S3::p1",
+    "text": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)\nSection 3: Second-Line Management\n[clause id: RESP-002-S3]\n\n[clause id: RESP-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Respiratory Medicine. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "RESP-002",
+      "source": "SYN-GUIDE-RESP-002",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "RESP-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-002_care_pathway_rbid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-002-S4::p1",
+    "text": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)\nSection 4: Monitoring\n[clause id: RESP-002-S4]\n\n[clause id: RESP-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for RBID, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "RESP-002",
+      "source": "SYN-GUIDE-RESP-002",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Recurrent Bronchial Inflammation Disorder (RBID)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RESP-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-002_care_pathway_rbid.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-003-S1::p1",
+    "text": "Respiratory Medicine Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: RESP-003-S1]\n\n[clause id: RESP-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used bronchodilating agents in respiratory medicine.",
+    "metadata": {
+      "document_id": "RESP-003",
+      "source": "SYN-GUIDE-RESP-003",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RESP-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-003-S2::p1",
+    "text": "Respiratory Medicine Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: RESP-003-S2]\n\n[clause id: RESP-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Bronchaline | 2 puffs (90 mcg) every 6 hours as needed | known hypersensitivity to propellant |\n| Airoflux | 250 mcg twice daily via inhaler | untreated systemic fungal infection |\n| Respiguard | 40 mg once daily | active peptic ulcer disease |",
+    "metadata": {
+      "document_id": "RESP-003",
+      "source": "SYN-GUIDE-RESP-003",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "RESP-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-003-S3::p1",
+    "text": "Respiratory Medicine Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: RESP-003-S3]\n\n[clause id: RESP-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Bronchaline additionally requires caution in patients with a history of hypersensitivity reactions to related compounds.",
+    "metadata": {
+      "document_id": "RESP-003",
+      "source": "SYN-GUIDE-RESP-003",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "RESP-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-003-S4::p1",
+    "text": "Respiratory Medicine Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: RESP-003-S4]\n\n[clause id: RESP-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance.",
+    "metadata": {
+      "document_id": "RESP-003",
+      "source": "SYN-GUIDE-RESP-003",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "RESP-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-004-S1::p1",
+    "text": "Respiratory Medicine Referral Criteria\nSection 1: Overview\n[clause id: RESP-004-S1]\n\n[clause id: RESP-004-S1]\n\nThis document defines when a patient managed under respiratory medicine guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "RESP-004",
+      "source": "SYN-GUIDE-RESP-004",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RESP-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-004-S2::p1",
+    "text": "Respiratory Medicine Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: RESP-004-S2]\n\n[clause id: RESP-004-S2]\n\nUrgent same-day referral is warranted for: oxygen saturation below 90% on room air, inability to complete a full sentence due to breathlessness, or use of accessory muscles at rest.",
+    "metadata": {
+      "document_id": "RESP-004",
+      "source": "SYN-GUIDE-RESP-004",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "RESP-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-004-S3::p1",
+    "text": "Respiratory Medicine Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: RESP-004-S3]\n\n[clause id: RESP-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: more than two exacerbations requiring oral steroids within a 12-month period.",
+    "metadata": {
+      "document_id": "RESP-004",
+      "source": "SYN-GUIDE-RESP-004",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "RESP-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-004-S4::p1",
+    "text": "Respiratory Medicine Referral Criteria\nSection 4: Follow-up\n[clause id: RESP-004-S4]\n\n[clause id: RESP-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "RESP-004",
+      "source": "SYN-GUIDE-RESP-004",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "RESP-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-005-S1::p1",
+    "text": "Respiratory Medicine Comorbidity Management Pathway\nSection 1: Overview\n[clause id: RESP-005-S1]\n\n[clause id: RESP-005-S1]\n\nPatients managed long-term under respiratory medicine guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "RESP-005",
+      "source": "SYN-GUIDE-RESP-005",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RESP-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-005-S2::p1",
+    "text": "Respiratory Medicine Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: RESP-005-S2]\n\n[clause id: RESP-005-S2]\n\nThe most frequently observed comorbidities in this population are osteoporosis from long-term steroid exposure and deconditioning. Screening for these should occur at routine follow-up visits, except in the following cases where screening frequency should increase to every visit rather than annually:\n- Cumulative oral steroid courses exceeding 4 per year\n- Prior fragility fracture at any site\n- Age 70 or older regardless of steroid exposure",
+    "metadata": {
+      "document_id": "RESP-005",
+      "source": "SYN-GUIDE-RESP-005",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "RESP-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-005-S3::p1",
+    "text": "Respiratory Medicine Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: RESP-005-S3]\n\n[clause id: RESP-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "RESP-005",
+      "source": "SYN-GUIDE-RESP-005",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "RESP-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RESP-005-S4::p1",
+    "text": "Respiratory Medicine Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: RESP-005-S4]\n\n[clause id: RESP-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "RESP-005",
+      "source": "SYN-GUIDE-RESP-005",
+      "specialty": "Respiratory Medicine",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Respiratory Medicine Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RESP-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RESP-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-001-S1::p1",
+    "text": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)\nSection 1: Overview\n[clause id: RHEU-001-S1]\n\n[clause id: RHEU-001-S1]\n\nChronic Joint Inflammation Syndrome (CJIS) is a synthetic condition used for this guideline set. Patients typically present with symptoms managed through a stepwise approach involving lifestyle modification followed by pharmacologic therapy with immune-modulating agents.",
+    "metadata": {
+      "document_id": "RHEU-001",
+      "source": "SYN-GUIDE-RHEU-001",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RHEU-001-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-001_care_pathway_cjis.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-001-S2::p1",
+    "text": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)\nSection 2: First-Line Management\n[clause id: RHEU-001-S2]\n\n[clause id: RHEU-001-S2]\n\nFirst-line management of CJIS consists of initiating Immunoflex at 10-25 mg once weekly, alongside structured lifestyle counseling. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "RHEU-001",
+      "source": "SYN-GUIDE-RHEU-001",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "RHEU-001-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-001_care_pathway_cjis.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-001-S3::p1",
+    "text": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)\nSection 3: Second-Line Management\n[clause id: RHEU-001-S3]\n\n[clause id: RHEU-001-S3]\n\nIf first-line therapy does not achieve target control within 8-12 weeks, add Jointral at 200 mg twice daily. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "RHEU-001",
+      "source": "SYN-GUIDE-RHEU-001",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "RHEU-001-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-001_care_pathway_cjis.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-001-S4::p1",
+    "text": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)\nSection 4: Monitoring\n[clause id: RHEU-001-S4]\n\n[clause id: RHEU-001-S4]\n\nPatients on therapy for CJIS should be reviewed every 3 months for the first year, then every 6 months once stable, with routine labs to screen for treatment-related adverse effects. Additional monitoring applies when on immune-modulating therapy:\n- Screen for latent infection before starting any immune-modulating agent, not only in patients with known risk factors\n- Do not resume therapy after an active infection until it has fully resolved, even if disease activity is worsening in the interim",
+    "metadata": {
+      "document_id": "RHEU-001",
+      "source": "SYN-GUIDE-RHEU-001",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Chronic Joint Inflammation Syndrome (CJIS)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RHEU-001-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-001_care_pathway_cjis.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-002-S1::p1",
+    "text": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)\nSection 1: Overview\n[clause id: RHEU-002-S1]\n\n[clause id: RHEU-002-S1]\n\nAutoimmune Connective Tissue Disorder (ACTD) is a synthetic chronic condition within rheumatology requiring ongoing management and periodic reassessment of disease activity.",
+    "metadata": {
+      "document_id": "RHEU-002",
+      "source": "SYN-GUIDE-RHEU-002",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RHEU-002-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-002_care_pathway_actd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-002-S2::p1",
+    "text": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)\nSection 2: First-Line Management\n[clause id: RHEU-002-S2]\n\n[clause id: RHEU-002-S2]\n\nInitial management of ACTD involves Autostem at 5 mg twice daily. Strength of recommendation: Strong.",
+    "metadata": {
+      "document_id": "RHEU-002",
+      "source": "SYN-GUIDE-RHEU-002",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 2: First-Line Management",
+      "clause_id": "RHEU-002-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-002_care_pathway_actd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-002-S3::p1",
+    "text": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)\nSection 3: Second-Line Management\n[clause id: RHEU-002-S3]\n\n[clause id: RHEU-002-S3]\n\nPatients with inadequate response after an appropriate trial period should be reassessed for combination therapy or specialist referral per the referral criteria document for Rheumatology. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "RHEU-002",
+      "source": "SYN-GUIDE-RHEU-002",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 3: Second-Line Management",
+      "clause_id": "RHEU-002-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-002_care_pathway_actd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-002-S4::p1",
+    "text": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)\nSection 4: Monitoring\n[clause id: RHEU-002-S4]\n\n[clause id: RHEU-002-S4]\n\nReassess disease activity at each visit using the standardized symptom scale for ACTD, with escalation of care if scores worsen across two consecutive visits.",
+    "metadata": {
+      "document_id": "RHEU-002",
+      "source": "SYN-GUIDE-RHEU-002",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Care Pathway: Autoimmune Connective Tissue Disorder (ACTD)",
+      "document_type": "care_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RHEU-002-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-002_care_pathway_actd.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-003-S1::p1",
+    "text": "Rheumatology Agent Dosing and Contraindication Reference\nSection 1: Overview\n[clause id: RHEU-003-S1]\n\n[clause id: RHEU-003-S1]\n\nThis reference summarizes standard dosing and key contraindications for commonly used immune-modulating agents in rheumatology.",
+    "metadata": {
+      "document_id": "RHEU-003",
+      "source": "SYN-GUIDE-RHEU-003",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RHEU-003-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-003-S2::p1",
+    "text": "Rheumatology Agent Dosing and Contraindication Reference\nSection 2: Dosing Table\n[clause id: RHEU-003-S2]\n\n[clause id: RHEU-003-S2]\n\n| Drug | Standard Dose Range | Primary Contraindication |\n|------|---------------------|---------------------------|\n| Immunoflex | 10-25 mg once weekly (see hepatic adjustment below) | active untreated tuberculosis |\n| Jointral | 200 mg twice daily | pre-existing retinal disease |\n| Autostem | 5 mg twice daily | active severe infection |\n\n**Hepatic dose adjustment (Immunoflex only):** patients with mildly elevated liver enzymes (up to 2x upper limit of normal) may continue at the standard dose with monthly monitoring. Above 2x upper limit of normal, the dose should not simply be reduced \u2014 therapy should be held entirely until enzymes normalize, then restarted at the lowest dose (10 mg).",
+    "metadata": {
+      "document_id": "RHEU-003",
+      "source": "SYN-GUIDE-RHEU-003",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 2: Dosing Table",
+      "clause_id": "RHEU-003-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-003-S3::p1",
+    "text": "Rheumatology Agent Dosing and Contraindication Reference\nSection 3: Contraindications\n[clause id: RHEU-003-S3]\n\n[clause id: RHEU-003-S3]\n\nEach agent listed above should be avoided in the presence of its primary contraindication. Immunoflex additionally requires caution in patients with a history of hypersensitivity reactions to related compounds.",
+    "metadata": {
+      "document_id": "RHEU-003",
+      "source": "SYN-GUIDE-RHEU-003",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 3: Contraindications",
+      "clause_id": "RHEU-003-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-003-S4::p1",
+    "text": "Rheumatology Agent Dosing and Contraindication Reference\nSection 4: Drug Interactions\n[clause id: RHEU-003-S4]\n\n[clause id: RHEU-003-S4]\n\nConcurrent use of more than one agent from this table requires dose adjustment and increased monitoring frequency, particularly in patients over 65 or with reduced organ clearance.",
+    "metadata": {
+      "document_id": "RHEU-003",
+      "source": "SYN-GUIDE-RHEU-003",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Agent Dosing and Contraindication Reference",
+      "document_type": "dosing_contraindication_reference",
+      "section_heading": "Section 4: Drug Interactions",
+      "clause_id": "RHEU-003-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-003_dosing_contraindications.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-004-S1::p1",
+    "text": "Rheumatology Referral Criteria\nSection 1: Overview\n[clause id: RHEU-004-S1]\n\n[clause id: RHEU-004-S1]\n\nThis document defines when a patient managed under rheumatology guidelines should be escalated beyond routine primary or specialist follow-up.",
+    "metadata": {
+      "document_id": "RHEU-004",
+      "source": "SYN-GUIDE-RHEU-004",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RHEU-004-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-004-S2::p1",
+    "text": "Rheumatology Referral Criteria\nSection 2: Urgent Referral Criteria\n[clause id: RHEU-004-S2]\n\n[clause id: RHEU-004-S2]\n\nUrgent same-day referral is warranted for: new onset joint swelling with fever, sudden vision loss, or signs of infection while on immune-modulating therapy.",
+    "metadata": {
+      "document_id": "RHEU-004",
+      "source": "SYN-GUIDE-RHEU-004",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 2: Urgent Referral Criteria",
+      "clause_id": "RHEU-004-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-004-S3::p1",
+    "text": "Rheumatology Referral Criteria\nSection 3: Routine Referral Criteria\n[clause id: RHEU-004-S3]\n\n[clause id: RHEU-004-S3]\n\nRoutine specialist referral (within 4-6 weeks) is appropriate when: disease activity score remaining elevated after 3 months on a stable regimen.",
+    "metadata": {
+      "document_id": "RHEU-004",
+      "source": "SYN-GUIDE-RHEU-004",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 3: Routine Referral Criteria",
+      "clause_id": "RHEU-004-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-004-S4::p1",
+    "text": "Rheumatology Referral Criteria\nSection 4: Follow-up\n[clause id: RHEU-004-S4]\n\n[clause id: RHEU-004-S4]\n\nFollowing any referral, the referring clinician should receive a summary of specialist findings within 2 weeks, and the patient should return for a joint review visit.",
+    "metadata": {
+      "document_id": "RHEU-004",
+      "source": "SYN-GUIDE-RHEU-004",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Referral Criteria",
+      "document_type": "referral_criteria",
+      "section_heading": "Section 4: Follow-up",
+      "clause_id": "RHEU-004-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-004_referral_criteria.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-005-S1::p1",
+    "text": "Rheumatology Comorbidity Management Pathway\nSection 1: Overview\n[clause id: RHEU-005-S1]\n\n[clause id: RHEU-005-S1]\n\nPatients managed long-term under rheumatology guidelines commonly develop related comorbidities that require coordinated management alongside their primary condition.",
+    "metadata": {
+      "document_id": "RHEU-005",
+      "source": "SYN-GUIDE-RHEU-005",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 1: Overview",
+      "clause_id": "RHEU-005-S1",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-005-S2::p1",
+    "text": "Rheumatology Comorbidity Management Pathway\nSection 2: Common Comorbidities\n[clause id: RHEU-005-S2]\n\n[clause id: RHEU-005-S2]\n\nThe most frequently observed comorbidities in this population are osteoporosis and increased infection risk from long-term immune-modulating therapy. Screening for these should occur at routine follow-up visits.",
+    "metadata": {
+      "document_id": "RHEU-005",
+      "source": "SYN-GUIDE-RHEU-005",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 2: Common Comorbidities",
+      "clause_id": "RHEU-005-S2",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-005-S3::p1",
+    "text": "Rheumatology Comorbidity Management Pathway\nSection 3: Management Approach\n[clause id: RHEU-005-S3]\n\n[clause id: RHEU-005-S3]\n\nComorbidity management should be integrated into the existing follow-up schedule rather than requiring separate visits where possible, with shared decision-making around medication burden. Strength of recommendation: Conditional.",
+    "metadata": {
+      "document_id": "RHEU-005",
+      "source": "SYN-GUIDE-RHEU-005",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 3: Management Approach",
+      "clause_id": "RHEU-005-S3",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  },
+  {
+    "chunk_id": "RHEU-005-S4::p1",
+    "text": "Rheumatology Comorbidity Management Pathway\nSection 4: Monitoring\n[clause id: RHEU-005-S4]\n\n[clause id: RHEU-005-S4]\n\nAnnual comprehensive review is recommended for all patients with identified comorbidities, including relevant laboratory screening specific to the comorbidity profile.",
+    "metadata": {
+      "document_id": "RHEU-005",
+      "source": "SYN-GUIDE-RHEU-005",
+      "specialty": "Rheumatology",
+      "version": "2026.1",
+      "issuing_body": "Synthetic Clinical Standards Board (SCSB)",
+      "document_title": "Rheumatology Comorbidity Management Pathway",
+      "document_type": "comorbidity_pathway",
+      "section_heading": "Section 4: Monitoring",
+      "clause_id": "RHEU-005-S4",
+      "path": "C:\\Users\\Welcome\\Downloads\\clinical-guidelines-assistant\\data\\raw\\RHEU-005_comorbidity_pathway.md",
+      "chunk_part": 1,
+      "chunk_parts": 1
+    }
+  }
+]

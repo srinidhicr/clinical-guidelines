@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import time
+import logging
 from dataclasses import dataclass
 from typing import Any, Protocol
 
@@ -11,8 +12,9 @@ from dotenv import load_dotenv
 from pydantic import ValidationError
 
 from src.generation.prompts import build_grounded_prompt
-from src.generation.schema import GuidelineAnswer
+from src.generation.schema import GuidelineAnswer, gemini_response_schema
 from src.retrieval.types import RetrievedChunk
+from src.utils.logging import log_generation_failure
 
 
 ABSTENTION_TEXT = "The synthetic guideline corpus does not support an answer to this question."
@@ -51,9 +53,9 @@ def abstain(reason: str = ABSTENTION_TEXT, confidence: float = 0.0) -> Guideline
 def _create_client() -> GeminiClient:
     """Construct the Gemini Developer API client only when generation is required."""
     load_dotenv()
-    api_key = os.getenv("GOOGLE_API_KEY")
+    api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise RuntimeError("GOOGLE_API_KEY is not configured.")
+        raise RuntimeError("GOOGLE_API_KEY is not configured in .env or the process environment.")
     from google import genai
 
     return genai.Client(api_key=api_key)
@@ -66,7 +68,7 @@ def _generation_config(temperature: float) -> Any:
     return types.GenerateContentConfig(
         temperature=temperature,
         response_mime_type="application/json",
-        response_schema=GuidelineAnswer,
+        response_schema=gemini_response_schema(),
     )
 
 
@@ -103,6 +105,8 @@ def generate_grounded_answer(
     contexts: list[RetrievedChunk],
     settings: GenerationSettings,
     client: GeminiClient | None = None,
+    logger: logging.Logger | None = None,
+    request_id: str = "unassigned",
 ) -> GuidelineAnswer:
     """Generate a cited answer or safely abstain after unsupported/repeatedly failed calls."""
     if not contexts:
@@ -128,4 +132,6 @@ def generate_grounded_answer(
             last_error = error
             if attempt + 1 < settings.max_retries:
                 time.sleep(settings.retry_backoff_seconds * (2**attempt))
+    if last_error is not None and logger is not None:
+        log_generation_failure(logger, request_id, last_error)
     return abstain(reason=f"{ABSTENTION_TEXT} The generation service is currently unavailable.")

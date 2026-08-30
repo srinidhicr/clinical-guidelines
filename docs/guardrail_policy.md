@@ -21,8 +21,8 @@ medical device, prescribing system, or source of individual clinical advice.
    refusal. The system can explain what a cited synthetic guideline says in general.
 5. **Synthetic-data boundary.** Real EHR, patient, provider, and confidential
    organisational data must not be ingested. Logs store only a request ID, timestamp,
-   outcome, confidence, and cited clause IDs; they do not record raw questions or model
-   prompts by default.
+   outcome, confidence, cited clause IDs, and provider-error type; they never serialise
+   raw questions, model prompts, model responses, or provider error messages.
 
 ## Abstention response contract
 
@@ -45,3 +45,10 @@ An abstention returns the Pydantic response schema with:
 
 This policy is reviewed with every corpus change and before publishing an evaluation
 report.
+
+## Local diagnostics exception
+
+`python -m src.diagnose_gemini` is an interactive terminal-only connectivity check. It
+may display the provider's error message to the developer to diagnose API configuration;
+it never writes that message to the audit log. Credentials must never be copied into its
+output or a support request.

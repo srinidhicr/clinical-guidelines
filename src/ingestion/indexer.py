@@ -184,6 +184,7 @@ def build_index(
                 "embedding_model": settings["embedding"]["model_name"],
                 "chunk_count": len(chunks),
                 "vector_count": index.ntotal,
+                "vector_dimension": index.d,
             },
             indent=2,
         ),

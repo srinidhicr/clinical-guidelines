@@ -1,0 +1,8 @@
+{
+  "signature": "6f1d32106b8b72c0fa1958f1309bcd24f4633c9fc187547219fcd99ad193ac2b",
+  "corpus_sha256": "92c305126ce6ef14aa07c806aadea0cb2486fab2fbab7fe64ce419c11da423f9",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "chunk_count": 122,
+  "vector_count": 122,
+  "vector_dimension": 384
+}

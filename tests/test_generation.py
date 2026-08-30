@@ -8,7 +8,7 @@ import pytest
 from pydantic import ValidationError
 
 from src.generation.generator import GenerationSettings, generate_grounded_answer, parse_model_response
-from src.generation.schema import GuidelineAnswer
+from src.generation.schema import GuidelineAnswer, gemini_response_schema
 from src.retrieval.types import RetrievedChunk
 
 
@@ -106,6 +106,7 @@ def test_response_matches_pydantic_schema() -> None:
         GuidelineAnswer.model_validate({"answer": "Missing required fields"})
 
     assert parse_model_response(_valid_json(), [_context()]).grounded is True
+    assert "additionalProperties" not in str(gemini_response_schema())
 
 
 def test_retries_on_transient_failure(monkeypatch: pytest.MonkeyPatch) -> None:

@@ -36,3 +36,46 @@ class GuidelineAnswer(BaseModel):
         if not self.grounded and self.citations:
             raise ValueError("Abstained answers must not include citations.")
         return self
+
+
+def gemini_response_schema() -> dict[str, object]:
+    """Return Gemini's supported schema subset, then validate strictly with Pydantic.
+
+    Pydantic's JSON schema uses `additionalProperties: false` for `extra="forbid"`.
+    Gemini's Developer API currently rejects that keyword, so its response schema is kept
+    deliberately minimal here; `GuidelineAnswer` still rejects unwanted fields locally.
+    """
+    citation_properties = {
+        "document_id": {"type": "STRING"},
+        "guideline_source": {"type": "STRING"},
+        "clause_id": {"type": "STRING"},
+        "section": {"type": "STRING"},
+    }
+    return {
+        "type": "OBJECT",
+        "properties": {
+            "answer": {"type": "STRING"},
+            "citations": {
+                "type": "ARRAY",
+                "items": {
+                    "type": "OBJECT",
+                    "properties": citation_properties,
+                    "required": list(citation_properties),
+                },
+            },
+            "guideline_source": {"type": "STRING", "nullable": True},
+            "section": {"type": "STRING", "nullable": True},
+            "strength_of_recommendation": {"type": "STRING", "nullable": True},
+            "grounding_confidence": {"type": "NUMBER"},
+            "grounded": {"type": "BOOLEAN"},
+        },
+        "required": [
+            "answer",
+            "citations",
+            "guideline_source",
+            "section",
+            "strength_of_recommendation",
+            "grounding_confidence",
+            "grounded",
+        ],
+    }

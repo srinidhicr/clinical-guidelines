@@ -37,14 +37,14 @@ in the repository; it is not considered verified until its associated test has p
 - [ ] Gemini client with retries and safe failure
 - [ ] Grounded-only prompt and citation validation
 - [ ] Confidence threshold and abstention path
-- [ ] Provenance-only logging
+- [x] Provenance-only logging (request ID, confidence, citations, and error type only)
 - [ ] AC-02, AC-05, AC-06 and NFR-05/NFR-08 tests
 
 ## Evaluation — AC-08, AC-09, AC-10
 
-- [ ] Golden-set structure and traceability test
-- [ ] Re-runnable pipeline evaluation runner
-- [ ] Committed RAGAS report with all four required metrics
+- [x] Golden-set structure and traceability test
+- [x] Re-runnable deterministic pipeline evaluation runner
+- [ ] Run and commit RAGAS report with all four required metrics (implementation complete; live run pending)
 - [ ] Failure taxonomy: retrieval, grounding, and synthesis
 - [ ] Two-Gemini-model comparison report and selection rationale
 - [ ] Evaluation-harness tests
@@ -53,8 +53,8 @@ in the repository; it is not considered verified until its associated test has p
 
 - [x] `.env.example`, no hard-coded secret policy, and `.gitignore`
 - [x] Externalized runtime/retrieval configuration
-- [ ] `pipeline.py` single callable and `python -m src.pipeline` entry point
-- [ ] Minimal CLI interface
+- [x] `pipeline.py` single callable and `python -m src.pipeline` entry point
+- [x] Minimal CLI interface
 - [ ] README setup, single-command run, architecture, and limitations
 - [ ] Cost/latency note based on representative query
 - [ ] Full test run, generated index, reports, and final acceptance audit
