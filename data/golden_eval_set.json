@@ -1,0 +1,291 @@
+[
+  {
+    "id": "Q01",
+    "question": "What is the first-line management for Stage 2 Arterial Pressure Elevation Syndrome (APES)?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-001-S2"
+    ],
+    "reference_answer": "First-line management is Cardaprilol 5-10 mg once daily plus structured lifestyle counseling (Strong recommendation).",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q02",
+    "question": "What should be added if first-line therapy for APES fails to control blood pressure within 8-12 weeks?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-001-S3"
+    ],
+    "reference_answer": "Add Rhythmostat 25-50 mg twice daily (Conditional recommendation).",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q03",
+    "question": "A cardiology patient on Cardaprilol develops chest pain lasting 15 minutes on exertion \u2014 does this meet urgent referral criteria?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-004-S2"
+    ],
+    "reference_answer": "Yes. Urgent same-day referral criteria include chest pain with exertion lasting more than 10 minutes.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q04",
+    "question": "What is the primary contraindication for Rhythmostat?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-003-S2"
+    ],
+    "reference_answer": "Second-degree conduction block.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q05",
+    "question": "What comorbidities should be screened for in patients on long-term cardiology follow-up?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-005-S2"
+    ],
+    "reference_answer": "Renal impairment and early heart failure.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q06",
+    "question": "What is the standard starting dose of Glucostabin and when should it be avoided?",
+    "type": "single_clause",
+    "expected_context": [
+      "ENDO-003-S2"
+    ],
+    "reference_answer": "500 mg twice daily with meals; avoid in severe hepatic impairment.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q07",
+    "question": "A patient's blood glucose is 380 mg/dL with ketosis \u2014 does this require urgent or routine referral?",
+    "type": "single_clause",
+    "expected_context": [
+      "ENDO-004-S2"
+    ],
+    "reference_answer": "Urgent same-day referral, since blood glucose above 350 mg/dL with ketosis meets the urgent referral criteria.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q08",
+    "question": "How often should patients with Thyroid Hormone Imbalance Disorder be reassessed?",
+    "type": "single_clause",
+    "expected_context": [
+      "ENDO-002-S4"
+    ],
+    "reference_answer": "At each visit using the standardized symptom scale for THID, with escalation if scores worsen across two consecutive visits.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q09",
+    "question": "What is the recommended annual monitoring for endocrinology patients with identified comorbidities?",
+    "type": "single_clause",
+    "expected_context": [
+      "ENDO-005-S4"
+    ],
+    "reference_answer": "Annual comprehensive review including laboratory screening specific to the comorbidity profile.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q10",
+    "question": "What oxygen saturation level warrants urgent referral for a respiratory patient?",
+    "type": "single_clause",
+    "expected_context": [
+      "RESP-004-S2"
+    ],
+    "reference_answer": "Oxygen saturation below 90% on room air.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q11",
+    "question": "A patient with Chronic Airway Restriction Syndrome has had 3 exacerbations requiring oral steroids this year \u2014 does this meet a referral threshold?",
+    "type": "single_clause",
+    "expected_context": [
+      "RESP-004-S3"
+    ],
+    "reference_answer": "Yes, routine referral is appropriate since more than two exacerbations requiring oral steroids in 12 months meets the routine referral criteria.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q12",
+    "question": "What contraindication applies to Respiguard?",
+    "type": "single_clause",
+    "expected_context": [
+      "RESP-003-S2"
+    ],
+    "reference_answer": "Active peptic ulcer disease.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q13",
+    "question": "What bone health comorbidity is associated with long-term respiratory steroid use?",
+    "type": "single_clause",
+    "expected_context": [
+      "RESP-005-S2"
+    ],
+    "reference_answer": "Osteoporosis from long-term steroid exposure, alongside deconditioning.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q14",
+    "question": "What is the dosing regimen and contraindication for Microfend?",
+    "type": "single_clause",
+    "expected_context": [
+      "ID-003-S2"
+    ],
+    "reference_answer": "1 g intravenously every 12 hours; avoid in severe egg protein allergy.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q15",
+    "question": "What fever and hemodynamic criteria trigger urgent infectious disease referral?",
+    "type": "single_clause",
+    "expected_context": [
+      "ID-004-S2"
+    ],
+    "reference_answer": "Fever above 39.5\u00b0C with hypotension, spreading skin necrosis, or altered mental status.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q16",
+    "question": "What potassium level defines an urgent nephrology referral?",
+    "type": "single_clause",
+    "expected_context": [
+      "NEPH-004-S2"
+    ],
+    "reference_answer": "Potassium above 6.5 mmol/L.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q17",
+    "question": "For two separate scenarios: is bilateral renal artery stenosis a contraindication to Nephrostat, and what renal-safe alternative is specified for a patient who cannot receive Cardaprilol because eGFR is below 30?",
+    "type": "multi_clause",
+    "expected_context": [
+      "NEPH-003-S2",
+      "NEPH-003-S5"
+    ],
+    "reference_answer": "Bilateral renal artery stenosis is Nephrostat's primary contraindication. For a separate patient who cannot receive Cardaprilol because eGFR is below 30 and has no renal artery stenosis, Nephrostat 1.25 mg once daily is the specified renal-safe alternative down to an eGFR of 15.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q18",
+    "question": "What dosing adjustment consideration applies to Immunoflex in rheumatology patients?",
+    "type": "single_clause",
+    "expected_context": [
+      "RHEU-003-S2"
+    ],
+    "reference_answer": "Dosed 10-25 mg once weekly; avoid in active untreated tuberculosis.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q19",
+    "question": "What defines a routine rheumatology referral based on disease activity score?",
+    "type": "single_clause",
+    "expected_context": [
+      "RHEU-004-S3"
+    ],
+    "reference_answer": "Disease activity score remaining elevated after 3 months on a stable regimen.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q20",
+    "question": "What is the recommended first-line surgical treatment for APES?",
+    "type": "abstain",
+    "expected_context": [],
+    "reference_answer": "The corpus does not cover surgical treatment for APES; the assistant should abstain rather than fabricate an answer.",
+    "ac_ref": "AC-05"
+  },
+  {
+    "id": "Q21",
+    "question": "What is the pediatric dosing of Glucostabin for children under 12?",
+    "type": "abstain",
+    "expected_context": [],
+    "reference_answer": "The corpus contains no pediatric dosing guidance; the assistant should abstain.",
+    "ac_ref": "AC-05"
+  },
+  {
+    "id": "Q22",
+    "question": "Compare the second-line management of APES and Chronic Rhythm Irregularity Disorder (CRID).",
+    "type": "multi_clause",
+    "expected_context": [
+      "CARD-001-S3",
+      "CARD-002-S3"
+    ],
+    "reference_answer": "APES second-line adds Rhythmostat 25-50 mg twice daily. CRID's guidance directs reassessment for combination therapy or specialist referral rather than a specific second-line drug.",
+    "ac_ref": "AC-07"
+  },
+  {
+    "id": "Q23",
+    "question": "What is the correct Cardaprilol dose for a patient with an eGFR of 38?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-001-S2"
+    ],
+    "reference_answer": "2.5-5 mg once daily, since an eGFR between 30 and 44 requires the halved starting dose.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q24",
+    "question": "Can Rhythmostat be used in a pregnant patient with APES?",
+    "type": "single_clause",
+    "expected_context": [
+      "CARD-001-S5"
+    ],
+    "reference_answer": "No. Rhythmostat should not be given to pregnant patients under any circumstance; Cardaprilol at the lowest effective dose with obstetric co-management is preferred instead.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q25",
+    "question": "A patient's blood glucose is 360 mg/dL but shows no ketosis \u2014 is this an urgent referral?",
+    "type": "single_clause",
+    "expected_context": [
+      "ENDO-004-S2"
+    ],
+    "reference_answer": "No. Blood glucose above 350 mg/dL without ketosis does not meet urgent criteria on its own; it should be treated as routine follow-up with a repeat reading within 24-48 hours.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q26",
+    "question": "Is Airoflux a rescue inhaler that can be used for acute symptom relief in CARS?",
+    "type": "single_clause",
+    "expected_context": [
+      "RESP-001-S3"
+    ],
+    "reference_answer": "No. Airoflux is not an as-needed rescue inhaler and should not be prescribed in place of Bronchaline for acute relief \u2014 it is a scheduled maintenance add-on only.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q27",
+    "question": "A patient had the same infection site recur twice, 8 months apart \u2014 does this meet the routine referral threshold?",
+    "type": "single_clause",
+    "expected_context": [
+      "ID-004-S3"
+    ],
+    "reference_answer": "No. Recurrences spaced more than 6 months apart do not meet the threshold; this should be managed in primary care with standard first-line therapy repeated.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q28",
+    "question": "What potassium level defines an urgent nephrology referral, and does a level of exactly 6.5 mmol/L qualify?",
+    "type": "multi_clause",
+    "expected_context": [
+      "NEPH-002-S2",
+      "NEPH-004-S2"
+    ],
+    "reference_answer": "Potassium at or above 6.5 mmol/L is the urgent threshold, so a level of exactly 6.5 mmol/L does qualify as urgent.",
+    "ac_ref": "AC-02"
+  },
+  {
+    "id": "Q29",
+    "question": "A rheumatology patient on Immunoflex has liver enzymes at 2.5x the upper limit of normal \u2014 should the dose simply be reduced?",
+    "type": "single_clause",
+    "expected_context": [
+      "RHEU-003-S2"
+    ],
+    "reference_answer": "No. Above 2x the upper limit of normal, therapy should be held entirely until enzymes normalize, then restarted at the lowest dose (10 mg) \u2014 not simply reduced.",
+    "ac_ref": "AC-02"
+  }
+]

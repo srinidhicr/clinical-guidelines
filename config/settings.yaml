@@ -1,0 +1,38 @@
+project:
+  name: clinical-guidelines-assistant
+  corpus_dir: data/raw
+  index_dir: data/index
+  golden_set_path: data/golden_eval_set.json
+  log_dir: data/logs
+
+ingestion:
+  supported_extensions: [".md"]
+  chunk_strategy: section_aware
+  max_chunk_characters: 1800
+  chunk_overlap_characters: 160
+  deduplicate_by: content_sha256
+
+embedding:
+  model_name: BAAI/bge-small-en-v1.5
+  normalize_embeddings: true
+
+retrieval:
+  bm25_candidate_count: 12
+  vector_candidate_count: 12
+  rrf_k: 60
+  reranker_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  reranker_candidate_count: 16
+  final_context_count: 4
+  minimum_grounding_confidence: 0.42
+
+generation:
+  model_name: gemini-3.5-flash
+  temperature: 0.0
+  max_retries: 3
+  retry_backoff_seconds: 1.0
+
+evaluation:
+  report_dir: eval/reports
+  candidate_models:
+    - gemini-3.5-flash
+    - gemini-3.6-flash
