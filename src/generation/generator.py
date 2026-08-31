@@ -220,17 +220,14 @@ def generate_grounded_answer(
                 contents=build_grounded_prompt(query, contexts),
                 config=_generation_config(settings.temperature),
             )
-            print(f"[DEBUG raw response for {request_id}]: {response.text}")
             answer = parse_model_response(str(response.text), contexts, query)
             if not answer.grounded or answer.grounding_confidence < settings.minimum_grounding_confidence:
                 return abstain(confidence=answer.grounding_confidence)
             return answer
         except (ValidationError, ValueError) as error:
             # Invalid structured output/citations must never be returned as a plausible answer.
-            print(f"[DEBUG] validation failure for request_id={request_id}: {error}")
             return abstain(reason=f"{ABSTENTION_TEXT} Generated output could not be validated.")
         except Exception as error:  # Provider/network failures are retried, then made safe.
-            print(f"[DEBUG] provider/parse exception (attempt {attempt+1}) for {request_id}: {type(error).__name__}: {error}")
             last_error = error
             if attempt + 1 < settings.max_retries:
                 time.sleep(settings.retry_backoff_seconds * (2**attempt))

@@ -84,7 +84,17 @@ The project's success is measured primarily through the RAG evaluation harness (
 
 All four measured RAGAS metrics exceeded target thresholds across the 29-question committed golden evaluation set.
 
-An instructor-authorized Groq judge (`openai/gpt-oss-20b`) was utilized for RAGAS evaluation to prevent provider quota exhaustion, while preserving Google Gemini as the application generation provider. Detailed evidence is committed under `eval/reports/`.
+### Evaluation Methodology & Analysis Notes:
+
+1. **Instructor-Authorized Evaluation Judge Substitution:**
+   To avoid catastrophic evaluation failure caused by Google Gemini Free-Tier Daily Quota Caps (20 requests/day vs 116 evaluation calls required for 29 questions $\times$ 4 metrics), the course instructor authorized using an OpenAI-compatible judge on Groq (`openai/gpt-oss-20b`). Google Gemini remains the strict, sole LLM provider for all core clinical application generation (`gemini-3.6-flash`), preserving architecture compliance while enabling full, auditable evaluation across all 29 golden questions.
+
+2. **Deterministic Context Precision (0.26) vs. RAGAS Context Precision (0.902):**
+   - *Deterministic Precision (26%):* Strict string matching calculates $\frac{\text{Expected Clause IDs}}{\text{Total Retrieved Chunks}}$. With `final_context_count: 4`, a single-clause query will mathematically achieve at most $\frac{1}{4} = 25\%$ precision because the retriever provides 3 additional adjacent paragraphs from the same guideline document for clinical context.
+   - *RAGAS LLM-Judged Precision (90.2%):* Evaluates semantic relevance of the ranked context, correctly recognizing that the top-ranked passage contains the exact ground truth while neighboring context is relevant background.
+
+3. **Negative/Abstention Metrics (Q20 & Q21):**
+   Questions Q20 (unsupported surgical query) and Q21 (unsupported pediatric dosing) are designed to test safe abstention. Because these queries have no ground-truth factual statements to support in the corpus, standard RAGAS faithfulness and relevancy algorithms evaluate to 0.0 on refusal strings. This is a recognized property of LLM-based RAGAS evaluation on abstentions; the pipeline's deterministic abstention check correctly achieves 100% (2/2) refusal correctness.
 
 ## 6. Cost and Latency Considerations (NFR-07)
 

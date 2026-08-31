@@ -128,10 +128,19 @@ def analyse_report(report: dict[str, Any]) -> dict[str, Any]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Create a RAG failure-taxonomy report")
-    parser.add_argument("--input", default="eval/reports/ragas_report.json")
+    parser.add_argument("--input", default=None, help="Input RAGAS report path")
     parser.add_argument("--output", default="eval/reports/failure_taxonomy_report.json")
     args = parser.parse_args()
-    input_path = repository_path(args.input)
+
+    default_candidates = ["eval/reports/ragas_groq_report.json", "eval/reports/ragas_report.json"]
+    if args.input:
+        input_path = repository_path(args.input)
+    else:
+        # Pick the completed report if available
+        input_path = repository_path(default_candidates[0])
+        if not input_path.exists():
+            input_path = repository_path(default_candidates[1])
+
     output_path = repository_path(args.output)
     report = json.loads(input_path.read_text(encoding="utf-8"))
     taxonomy = analyse_report(report)
