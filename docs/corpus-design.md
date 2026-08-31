@@ -23,9 +23,8 @@ by hand with the following controlled variations:
   not be mistaken for recommendations.
 - Use contrast pairs across specialties: similar words such as *urgent*, *monitor*,
   *review*, and *avoid*, but different thresholds, actions, and clause IDs.
-- Include two genuine multi-clause questions requiring one care-pathway clause and one
-  dosing, contraindication, or referral clause.
-- Add four hard-negative/abstention questions (unknown condition, unsupported dose,
+- Include genuine multi-clause questions spanning care-pathway + referral/contraindication combinations (e.g., Q28), same-document dual-clause synthesis (e.g., Q17), and cross-condition comparative pathways (e.g., Q22).
+- Add hard-negative/abstention questions (unknown condition, unsupported dose,
   patient-specific decision, and non-clinical request) while preserving at least 20 total
   golden examples.
 - Give each specialty one distinctive document shape (a decision table, exception list,

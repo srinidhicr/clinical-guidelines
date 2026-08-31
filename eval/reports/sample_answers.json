@@ -1,0 +1,64 @@
+{
+  "description": "Committed sample outputs demonstrating structured response schema, clause-level citations, provenance metadata, and abstention behavior (Rubric Section 7.4).",
+  "samples": [
+    {
+      "sample_id": "sample-01-grounded-single-clause",
+      "question_id": "Q01",
+      "question": "What is the first-line management for Stage 2 Arterial Pressure Elevation Syndrome (APES)?",
+      "expected_clause_ids": ["CARD-001-S2"],
+      "model_response": {
+        "answer": "According to the synthetic Cardiology Care Pathway for Stage 2 Arterial Pressure Elevation Syndrome (APES), first-line management requires initiation of Cardaprilol at an initial dose of 10 mg once daily, titrated after two weeks to a target dose of 20 mg once daily if blood pressure remains above target.",
+        "citations": [
+          {
+            "document_id": "CARD-001",
+            "guideline_source": "SYN-GUIDE-CARD-001",
+            "clause_id": "CARD-001-S2",
+            "section": "Section 2: First-Line Management"
+          }
+        ],
+        "guideline_source": "SYN-GUIDE-CARD-001",
+        "section": "Section 2: First-Line Management",
+        "strength_of_recommendation": null,
+        "grounding_confidence": 1.0,
+        "grounded": true
+      }
+    },
+    {
+      "sample_id": "sample-02-grounded-multi-clause",
+      "question_id": "Q28",
+      "question": "Under PRFDS guidelines, what serum potassium level warrants urgent nephrology referral, and does a level of 6.5 mmol/L qualify?",
+      "expected_clause_ids": ["NEPH-004-S2", "NEPH-004-S4"],
+      "model_response": {
+        "answer": "An urgent nephrology referral is warranted for a serum potassium level at or above 6.5 mmol/L. Yes, a potassium level of exactly 6.5 mmol/L qualifies for an urgent nephrology referral under the PRFDS guidelines.",
+        "citations": [
+          {
+            "document_id": "NEPH-004",
+            "guideline_source": "SYN-GUIDE-NEPH-004",
+            "clause_id": "NEPH-004-S2",
+            "section": "Section 2: Urgent Referral Criteria"
+          }
+        ],
+        "guideline_source": "SYN-GUIDE-NEPH-004",
+        "section": "Section 2: Urgent Referral Criteria",
+        "strength_of_recommendation": null,
+        "grounding_confidence": 1.0,
+        "grounded": true
+      }
+    },
+    {
+      "sample_id": "sample-03-safe-abstention",
+      "question_id": "Q20",
+      "question": "What is the recommended surgical procedure for renal artery stenosis?",
+      "expected_clause_ids": [],
+      "model_response": {
+        "answer": "I cannot answer this question based on the provided clinical guidelines. The corpus does not contain guidance on this topic.",
+        "citations": [],
+        "guideline_source": null,
+        "section": null,
+        "strength_of_recommendation": null,
+        "grounding_confidence": 0.0,
+        "grounded": false
+      }
+    }
+  ]
+}

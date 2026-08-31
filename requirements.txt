@@ -1,16 +1,26 @@
+# Vector Search & Embeddings
 faiss-cpu
-datasets
+sentence-transformers
+numpy
+
+# Google Gemini & LLM Provider SDKs
 google-genai==1.63.0
 instructor[google-genai]==1.16.0
-langchain==0.3.27
-langchain-community==0.3.31
-numpy
 openai
+
+# Data Validation & Utilities
 pydantic
 python-dotenv
 PyYAML
-rank-bm25
-ragas==0.4.3
-sentence-transformers
 tenacity
+
+# Retrieval & Evaluation
+rank-bm25
+datasets
+ragas==0.4.3
 pytest
+
+# Approved ecosystem frameworks (optional / development)
+langchain==0.3.27
+langchain-community==0.3.31
+

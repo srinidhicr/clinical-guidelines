@@ -18,7 +18,7 @@
       "generation_model": "gemini-3.6-flash",
       "judge_model": "openai/gpt-oss-20b",
       "embedding_model": "BAAI/bge-small-en-v1.5",
-      "report": "eval/reports/ragas_groq_report.json",
+      "report": "eval/reports/ragas_gemini_3_6_flash.json",
       "ragas_status": "completed",
       "metrics": {
         "context_precision": 0.9022988504999997,
