@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "Q01",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S2",
+        "CARD-001-S3",
+        "CARD-001-S1",
+        "CARD-001-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    }
+  ],
+  "aggregate": {
+    "context_precision": 0.25,
+    "context_recall": 1.0
+  },
+  "generated_at": "2026-08-31T10:00:36.861277+00:00",
+  "evaluation_type": "deterministic_retrieval_and_groq_ragas",
+  "evaluation_scope": "subset",
+  "question_ids": [
+    "Q01"
+  ],
+  "question_count": 1,
+  "ragas": {
+    "status": "completed",
+    "judge_provider": "groq",
+    "judge_model": "openai/gpt-oss-20b",
+    "embedding_provider": "local_sentence_transformer",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "generation_audit_report": "eval/reports/groq_ragas_generation_audit.json",
+    "generation_checkpoint": "eval/reports/groq_ragas_generation_checkpoint.json",
+    "question_count": 1,
+    "items": [
+      {
+        "id": "Q01",
+        "type": "single_clause",
+        "ac_ref": "AC-02",
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      }
+    ],
+    "aggregate": {
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    }
+  }
+}

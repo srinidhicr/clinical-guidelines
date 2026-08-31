@@ -7,6 +7,8 @@ from pathlib import Path
 import numpy as np
 
 from src.pipeline import ClinicalGuidelinesPipeline
+from src.generation.schema import GuidelineAnswer
+from src.pipeline import run_end_to_end
 
 
 class DeterministicEmbedder:
@@ -64,3 +66,44 @@ def test_pipeline_wires_transform_retrieval_fusion_and_reranking(tmp_path: Path)
     assert reranked
     assert len(reranked) <= settings["retrieval"]["final_context_count"]
     assert all(candidate.source == "cross_encoder" for candidate in reranked)
+
+
+def test_single_command_run_executes_index_answer_and_evaluation() -> None:
+    """NFR-02: the documented one-command path wires all stages in order."""
+    repository_root = Path(__file__).resolve().parents[1]
+
+    class FakePipeline:
+        def __init__(self) -> None:
+            self.prepared = False
+            self.question: str | None = None
+
+        def prepare(self) -> None:
+            self.prepared = True
+
+        def ask(self, question: str, request_id: str) -> GuidelineAnswer:
+            self.question = question
+            assert request_id == "nfr-02-end-to-end-smoke"
+            return GuidelineAnswer(
+                answer="Synthetic answer.", citations=[], grounding_confidence=0.0, grounded=False
+            )
+
+    captured: dict[str, object] = {}
+
+    def fake_evaluator(**kwargs: object) -> dict[str, object]:
+        captured.update(kwargs)
+        return {"evaluation_scope": "full_golden_set", "ragas": {"status": "not_run"}}
+
+    pipeline = FakePipeline()
+    result = run_end_to_end(
+        settings={
+            "project": {"golden_set_path": str(repository_root / "data" / "golden_eval_set.json")},
+        },
+        pipeline=pipeline,  # type: ignore[arg-type]
+        evaluator=fake_evaluator,
+    )
+
+    assert pipeline.prepared is True
+    assert pipeline.question is not None
+    assert result["sample_question_id"] == "Q01"
+    assert captured["run_ragas"] is False
+    assert captured["report_filename"] == "pipeline_run_evaluation_report.json"

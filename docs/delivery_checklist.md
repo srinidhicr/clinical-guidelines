@@ -23,39 +23,41 @@ in the repository; it is not considered verified until its associated test has p
 
 ## Retrieval quality — AC-03, AC-04, AC-07
 
-- [ ] Independent BM25 lexical retriever
-- [ ] Independent FAISS semantic retriever
-- [ ] Reciprocal Rank Fusion of both result sets
-- [ ] Cross-encoder reranking before generation
-- [ ] Multi-part query decomposition / rewrite
-- [ ] Retrieval settings read from configuration
-- [ ] AC-03, AC-04, and AC-07 tests
+- [x] Independent BM25 lexical retriever
+- [x] Independent FAISS semantic retriever
+- [x] Reciprocal Rank Fusion of both result sets
+- [x] Cross-encoder reranking before generation
+- [x] Multi-part query decomposition / rewrite
+- [x] Retrieval settings read from configuration
+- [x] AC-03, AC-04, and AC-07 tests — passed locally
 
 ## Generation and grounding — AC-02, AC-05, AC-06
 
-- [ ] Pydantic answer/citation schema
-- [ ] Gemini client with retries and safe failure
-- [ ] Grounded-only prompt and citation validation
-- [ ] Confidence threshold and abstention path
+- [x] Pydantic answer/citation schema
+- [x] Gemini client with retries and safe failure
+- [x] Grounded-only prompt plus citation/provenance and claim-support validation
+- [x] Deterministic scope/evidence gates, confidence threshold, and abstention path
 - [x] Provenance-only logging (request ID, confidence, citations, and error type only)
-- [ ] AC-02, AC-05, AC-06 and NFR-05/NFR-08 tests
+- [x] AC-02, AC-05, AC-06 and NFR-05/NFR-08 tests — passed locally
 
 ## Evaluation — AC-08, AC-09, AC-10
 
 - [x] Golden-set structure and traceability test
 - [x] Re-runnable deterministic pipeline evaluation runner
 - [ ] Run and commit RAGAS report with all four required metrics (implementation complete; live run pending)
-- [ ] Failure taxonomy: retrieval, grounding, and synthesis
-- [ ] Two-Gemini-model comparison report and selection rationale
-- [ ] Evaluation-harness tests
+- [x] Deterministic failure-taxonomy runner for retrieval, grounding, synthesis, and abstention risks
+- [ ] Commit the taxonomy report generated from the completed full-golden-set RAGAS report
+- [x] Two-Gemini-model comparison runner with a documented, grounding-first selection rule
+- [ ] Commit completed full-golden-set per-model reports and comparison/selection report
+- [x] Evaluation-harness tests — passed locally
 
 ## Engineering and handoff — NFR-01 to NFR-07
 
 - [x] `.env.example`, no hard-coded secret policy, and `.gitignore`
 - [x] Externalized runtime/retrieval configuration
-- [x] `pipeline.py` single callable and `python -m src.pipeline` entry point
+- [x] `python -m src.pipeline --run-all` builds the index, produces a cited sample answer, and runs deterministic evaluation
 - [x] Minimal CLI interface
-- [ ] README setup, single-command run, architecture, and limitations
-- [ ] Cost/latency note based on representative query
+- [x] README setup, single-command run, architecture, and limitations
+- [x] Cost/latency note based on representative query (Q01)
 - [ ] Full test run, generated index, reports, and final acceptance audit
 - [ ] At least three PR-driven merge commits (complete in GitLab workflow)

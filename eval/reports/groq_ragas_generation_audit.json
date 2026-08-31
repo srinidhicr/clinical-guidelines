@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-31T10:18:42.276022+00:00",
+  "generation_model": "gemini-3.6-flash",
+  "checkpoint": "/Users/srinidhicr/PROJECTS/clinical-guidelines-assistant/Clinical-Guidelines-Assistant/eval/reports/groq_ragas_generation_checkpoint.json",
+  "question_count": 7,
+  "grounded_answer_count": 6,
+  "abstained_answer_count": 1,
+  "reused_checkpoint_answer_count": 2,
+  "new_generation_answer_count": 5,
+  "items": [
+    {
+      "id": "Q01",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q02",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q03",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-004-S2"
+      ],
+      "source": "gemini"
+    },
+    {
+      "id": "Q04",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-003-S2"
+      ],
+      "source": "gemini"
+    },
+    {
+      "id": "Q05",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-005-S2"
+      ],
+      "source": "gemini"
+    },
+    {
+      "id": "Q06",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ENDO-001-S2",
+        "ENDO-003-S2",
+        "ENDO-003-S3"
+      ],
+      "source": "gemini"
+    },
+    {
+      "id": "Q07",
+      "grounded": false,
+      "grounding_confidence": 0.0,
+      "citation_clause_ids": [],
+      "source": "gemini"
+    }
+  ]
+}

@@ -31,11 +31,13 @@ class ClinicalGuidelinesPipeline:
         embedder: QueryEmbedder | None = None,
         reranker_scorer: PairScorer | None = None,
         gemini_client: GeminiClient | None = None,
+        generation_model_override: str | None = None,
     ) -> None:
         self.settings = settings or load_settings()
         self._embedder = embedder
         self._reranker_scorer = reranker_scorer
         self._gemini_client = gemini_client
+        self._generation_model_override = generation_model_override
         self._bm25: BM25Retriever | None = None
         self._vector: VectorRetriever | None = None
         self._reranker: CrossEncoderReranker | None = None
@@ -82,22 +84,29 @@ class ClinicalGuidelinesPipeline:
         reranked = self._reranker.rerank(query, fused, int(config["final_context_count"]))
         return plan, fused, reranked
 
-    def ask(self, query: str, request_id: str | None = None) -> GuidelineAnswer:
+    def ask(
+        self,
+        query: str,
+        request_id: str | None = None,
+        contexts: list[RetrievedChunk] | None = None,
+    ) -> GuidelineAnswer:
         """Return the only public answer object, with provenance logged after completion."""
-        _, _, contexts = self.retrieve(query)
+        active_contexts = contexts if contexts is not None else self.retrieve(query)[2]
         generation = self.settings["generation"]
         retrieval = self.settings["retrieval"]
         active_request_id = request_id or str(uuid.uuid4())
         logger = configure_provenance_logger(repository_path(self.settings["project"]["log_dir"]))
         answer = generate_grounded_answer(
             query=query,
-            contexts=contexts,
+            contexts=active_contexts,
             settings=GenerationSettings(
-                model_name=os.getenv("GEMINI_MODEL", generation["model_name"]),
+                model_name=self._generation_model_override
+                or os.getenv("GEMINI_MODEL", generation["model_name"]),
                 temperature=float(generation["temperature"]),
                 max_retries=int(generation["max_retries"]),
                 retry_backoff_seconds=float(generation["retry_backoff_seconds"]),
                 minimum_grounding_confidence=float(retrieval["minimum_grounding_confidence"]),
+                minimum_evidence_term_overlap=float(retrieval["minimum_evidence_term_overlap"]),
             ),
             client=self._gemini_client,
             logger=logger,
@@ -107,12 +116,66 @@ class ClinicalGuidelinesPipeline:
         return answer
 
 
+def run_end_to_end(
+    settings: dict[str, Any] | None = None,
+    pipeline: ClinicalGuidelinesPipeline | None = None,
+    run_ragas: bool = False,
+    evaluator: Any | None = None,
+) -> dict[str, Any]:
+    """Execute the documented NFR-02 pipeline and evaluation smoke path.
+
+    The default evaluation is deterministic clause retrieval so one command is safe to
+    rerun without silently consuming Gemini quota. ``run_ragas=True`` explicitly adds
+    the live Gemini-backed evaluation stage.
+    """
+    from eval.golden_set import load_golden_set
+    from eval.ragas_eval import evaluate
+
+    active_settings = settings or load_settings()
+    active_pipeline = pipeline or ClinicalGuidelinesPipeline(active_settings)
+    golden_set = load_golden_set(repository_path(active_settings["project"]["golden_set_path"]))
+    sample = next(entry for entry in golden_set if entry["type"] != "abstain")
+
+    active_pipeline.prepare()
+    answer = active_pipeline.ask(sample["question"], request_id="nfr-02-end-to-end-smoke")
+    evaluate_runner = evaluator or evaluate
+    evaluation_report = evaluate_runner(
+        settings=active_settings,
+        pipeline=active_pipeline,
+        run_ragas=run_ragas,
+        report_filename="pipeline_run_evaluation_report.json",
+    )
+    return {
+        "sample_question_id": sample["id"],
+        "sample_answer": answer.model_dump(),
+        "evaluation_report": "eval/reports/pipeline_run_evaluation_report.json",
+        "evaluation_scope": evaluation_report.get("evaluation_scope"),
+        "ragas_status": evaluation_report.get("ragas", {}).get("status"),
+    }
+
+
 def main() -> None:
     """Minimal CLI for one locally indexed question; UI polish is intentionally deferred."""
     parser = argparse.ArgumentParser(description="Synthetic Clinical Guidelines Assistant")
     parser.add_argument("query", nargs="?", help="Question to ask against the synthetic corpus")
     parser.add_argument("--build-index", action="store_true", help="Build/reuse the persisted FAISS index")
+    parser.add_argument(
+        "--run-all",
+        action="store_true",
+        help="Run indexing, one committed sample answer, then full deterministic evaluation.",
+    )
+    parser.add_argument(
+        "--with-ragas",
+        action="store_true",
+        help="With --run-all, include the quota-consuming live Gemini RAGAS stage.",
+    )
     args = parser.parse_args()
+
+    if args.with_ragas and not args.run_all:
+        parser.error("--with-ragas can only be used with --run-all")
+    if args.run_all:
+        print(json.dumps(run_end_to_end(run_ragas=args.with_ragas), indent=2))
+        return
 
     pipeline = ClinicalGuidelinesPipeline()
     if args.build_index:

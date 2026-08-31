@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import re
 import time
 import logging
 from dataclasses import dataclass
@@ -35,6 +36,7 @@ class GenerationSettings:
     max_retries: int
     retry_backoff_seconds: float
     minimum_grounding_confidence: float
+    minimum_evidence_term_overlap: float = 0.10
 
 
 def abstain(reason: str = ABSTENTION_TEXT, confidence: float = 0.0) -> GuidelineAnswer:
@@ -84,20 +86,104 @@ def _supported_citation_keys(contexts: list[RetrievedChunk]) -> set[tuple[str, s
     }
 
 
+def _cited_context_text(answer: GuidelineAnswer, contexts: list[RetrievedChunk]) -> str:
+    """Return only the passages explicitly claimed as support by the answer."""
+    citation_keys = {
+        (citation.document_id, citation.guideline_source, citation.clause_id, citation.section)
+        for citation in answer.citations
+    }
+    return "\n".join(
+        context.text
+        for context in contexts
+        if (
+            str(context.metadata["document_id"]),
+            str(context.metadata["source"]),
+            str(context.metadata["clause_id"]),
+            str(context.metadata["section_heading"]),
+        )
+        in citation_keys
+    )
+
+
+_STOP_WORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "in", "is", "it", "of",
+    "on", "or", "that", "the", "this", "to", "with", "what", "which", "who", "will", "would",
+    "guideline", "guidelines", "list", "lists", "states", "state", "synthetic", "corpus",
+}
+
+
+def _content_tokens(text: str) -> set[str]:
+    return {
+        token
+        for token in re.findall(r"[a-z0-9]+", text.lower())
+        if token not in _STOP_WORDS and len(token) > 1
+    }
+
+
+def _has_minimum_evidence_support(query: str, contexts: list[RetrievedChunk], minimum_overlap: float) -> bool:
+    """Reject clearly unrelated retrieval before a model confidence value is considered."""
+    query_terms = _content_tokens(query)
+    if not query_terms:
+        return True
+    evidence_terms = _content_tokens(" ".join(context.text for context in contexts))
+    return len(query_terms & evidence_terms) / len(query_terms) >= minimum_overlap
+
+
+def _is_patient_specific_request(query: str) -> bool:
+    """Catch first-person requests for an individual decision without blocking generic cases."""
+    return bool(
+        re.search(
+            r"\b(?:should i|should we|for me|my (?:dose|dosing|treatment|medication|test|lab|symptom|condition)|"
+            r"my patient|patient named|this patient should)\b",
+            query,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChunk]) -> GuidelineAnswer:
+    """Require each factual answer sentence to be materially supported by its cited text.
+
+    This local guard is intentionally conservative: quantities must occur verbatim in the
+    cited clause, and each factual sentence needs at least two meaningful terms and a
+    majority of its meaningful terms in the cited evidence. It is a supplement to, not a
+    replacement for, RAGAS faithfulness evaluation.
+    """
+    cited_text = _cited_context_text(answer, contexts)
+    evidence_terms = _content_tokens(cited_text)
+    evidence_numbers = set(re.findall(r"\d+(?:\.\d+)?", cited_text))
+    for sentence in re.split(r"(?<=[A-Za-z])(?:[.!?]+)(?:\s+|$)", answer.answer):
+        terms = _content_tokens(sentence)
+        if len(terms) < 2:
+            continue
+        sentence_numbers = set(re.findall(r"\d+(?:\.\d+)?", sentence))
+        overlap = len(terms & evidence_terms) / len(terms)
+        if not sentence_numbers.issubset(evidence_numbers) or overlap < 0.60:
+            raise ValueError("Generated answer contains a claim not sufficiently supported by its cited evidence.")
+    return answer
+
+
 def validate_citations(answer: GuidelineAnswer, contexts: list[RetrievedChunk]) -> GuidelineAnswer:
-    """Reject citations absent from the actual retrieved evidence."""
+    """Reject absent citations and inconsistent top-level provenance."""
     supported = _supported_citation_keys(contexts)
     for citation in answer.citations:
         key = (citation.document_id, citation.guideline_source, citation.clause_id, citation.section)
         if key not in supported:
             raise ValueError(f"Generated citation is not present in retrieved evidence: {citation.clause_id}")
+    if answer.grounded:
+        if answer.guideline_source is None or answer.section is None:
+            raise ValueError("Grounded answers require top-level guideline source and section.")
+        citation_provenance = {(citation.guideline_source, citation.section) for citation in answer.citations}
+        if (answer.guideline_source, answer.section) not in citation_provenance:
+            raise ValueError("Top-level guideline source and section must match one cited clause.")
     return answer
 
 
 def parse_model_response(raw_json: str, contexts: list[RetrievedChunk]) -> GuidelineAnswer:
-    """Validate schema and citations; callers can distinguish validation failures clearly."""
+    """Validate schema, provenance, and local claim support before returning an answer."""
     answer = GuidelineAnswer.model_validate_json(raw_json)
-    return validate_citations(answer, contexts)
+    answer = validate_citations(answer, contexts)
+    return validate_claim_support(answer, contexts) if answer.grounded else answer
 
 
 def generate_grounded_answer(
@@ -111,6 +197,10 @@ def generate_grounded_answer(
     """Generate a cited answer or safely abstain after unsupported/repeatedly failed calls."""
     if not contexts:
         return abstain()
+    if _is_patient_specific_request(query):
+        return abstain("This assistant is a synthetic-guideline reference tool and cannot make an individual treatment decision.")
+    if not _has_minimum_evidence_support(query, contexts, settings.minimum_evidence_term_overlap):
+        return abstain("The retrieved synthetic guideline evidence is not sufficiently relevant to support an answer.")
     active_client = client
     last_error: Exception | None = None
     for attempt in range(settings.max_retries):

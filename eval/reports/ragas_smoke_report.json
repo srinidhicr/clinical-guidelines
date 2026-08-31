@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "Q01",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S2",
+        "CARD-001-S3",
+        "CARD-001-S1",
+        "CARD-001-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    }
+  ],
+  "aggregate": {
+    "context_precision": 0.25,
+    "context_recall": 1.0
+  },
+  "generated_at": "2026-08-31T07:29:59.874230+00:00",
+  "evaluation_type": "deterministic_retrieval_and_gemini_ragas",
+  "evaluation_scope": "subset",
+  "question_ids": [
+    "Q01"
+  ],
+  "question_count": 1,
+  "ragas": {
+    "status": "completed",
+    "judge_model": "gemini-3.5-flash",
+    "embedding_model": "gemini-embedding-001",
+    "question_count": 1,
+    "items": [
+      {
+        "id": "Q01",
+        "type": "single_clause",
+        "ac_ref": "AC-02",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 0.8333333333333334,
+        "answer_relevancy": 0.8747100051824205
+      }
+    ],
+    "aggregate": {
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.8747100051824205
+    }
+  }
+}

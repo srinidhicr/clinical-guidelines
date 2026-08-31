@@ -100,6 +100,42 @@ def test_invalid_citation_becomes_abstention(monkeypatch: pytest.MonkeyPatch) ->
     assert answer.citations == []
 
 
+def test_inconsistent_top_level_provenance_is_rejected() -> None:
+    """AC-06: top-level source/section cannot disagree with the cited clause."""
+    payload = json.loads(_valid_json())
+    payload["section"] = "Section 9: Invented"
+
+    with pytest.raises(ValueError, match="Top-level guideline source"):
+        parse_model_response(json.dumps(payload), [_context()])
+
+
+def test_unsupported_claim_is_rejected_even_with_a_real_citation() -> None:
+    """AC-02: a valid clause ID alone cannot justify a fabricated treatment claim."""
+    payload = json.loads(_valid_json())
+    payload["answer"] = "Zantril 99 mg once daily cures APES."
+
+    with pytest.raises(ValueError, match="claim not sufficiently supported"):
+        parse_model_response(json.dumps(payload), [_context()])
+
+
+def test_patient_specific_request_abstains_without_calling_model() -> None:
+    """AC-05: deterministic scope controls do not rely on model confidence."""
+    client = FakeClient([_valid_json()])
+    answer = generate_grounded_answer("What dose should I take?", [_context()], _settings(), client)
+
+    assert answer.grounded is False
+    assert client.models.calls == 0
+
+
+def test_irrelevant_retrieval_abstains_without_calling_model() -> None:
+    """AC-05: clearly unrelated evidence is rejected before generation."""
+    client = FakeClient([_valid_json()])
+    answer = generate_grounded_answer("What is the payroll policy?", [_context()], _settings(), client)
+
+    assert answer.grounded is False
+    assert client.models.calls == 0
+
+
 def test_response_matches_pydantic_schema() -> None:
     """AC-06: schema violations are rejected instead of silently accepted."""
     with pytest.raises(ValidationError):

@@ -84,3 +84,32 @@ The project's success is measured primarily through the RAG evaluation harness (
 
 *(Numeric targets above are working goals set before evaluation; actual measured results
 will be recorded in `eval/reports/` and this section updated once the harness has run.)*
+
+If an instructor-authorized Groq judge is used for RAGAS because of Gemini provider
+quota, reports identify Groq as the *evaluation judge* while preserving Gemini as the
+application generation provider. Metrics from different judge providers should not be
+directly compared as though they were the same measurement instrument.
+
+## 6. Cost and Latency Considerations (NFR-07)
+
+This is a local, small-scale reference implementation, not a production performance
+benchmark. The representative query is golden-set **Q01**: *“What is the first-line
+management for Stage 2 Arterial Pressure Elevation Syndrome (APES)?”* It exercises query
+transformation, BM25 and vector retrieval, RRF, cross-encoder reranking, one Gemini
+structured-generation call, citation validation, and provenance logging.
+
+- **Normal request latency:** after the local embedding and reranker models have been
+  downloaded and the FAISS index is present, latency is primarily the local retrieval and
+  reranking work plus one Gemini generation request. Provider response time is variable,
+  so no fixed latency promise is made.
+- **First-run latency:** the first command on a new machine can be noticeably slower
+  because Sentence-Transformers weights are downloaded and the index may be built. These
+  are local setup costs, not per-question Gemini latency.
+- **External cost:** normal answer requests use the configured Gemini generation model.
+  The local embeddings, FAISS index, BM25 retrieval, and cross-encoder reranker do not
+  make paid provider calls. Live RAGAS is more expensive than one answer because it makes
+  multiple Gemini judge/embedding requests per golden question; it is therefore explicit
+  and opt-in rather than part of the default `--run-all` command.
+- **Operational control:** use a one-question RAGAS smoke run before a full evaluation,
+  keep `evaluation.max_workers` at one, and inspect Gemini project quota/model
+  availability before rerunning failed provider calls.

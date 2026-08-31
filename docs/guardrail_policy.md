@@ -13,9 +13,11 @@ medical device, prescribing system, or source of individual clinical advice.
    before the response is returned.
 2. **Grounded-only generation.** The generator may use only supplied retrieved passages
    for factual claims. It may not use general medical knowledge to fill a gap.
-3. **Abstain by default.** The assistant abstains when the question is unsupported,
-   retrieval confidence is below the configured threshold, retrieved evidence conflicts,
-   or a claimed citation is not among the retrieved clauses.
+3. **Abstain by default.** The assistant abstains when the question is an explicit
+individual-treatment request, retrieval has insufficient deterministic term overlap with
+the query, retrieval confidence is below the configured threshold, retrieved evidence
+conflicts, a claim lacks cited-text support, or a claimed citation is not among the
+retrieved clauses.
 4. **No patient-specific decisions.** Requests framed around a real person, their test
    values, diagnosis, treatment selection, or dosage decision receive a scope-limited
    refusal. The system can explain what a cited synthetic guideline says in general.
@@ -37,9 +39,9 @@ An abstention returns the Pydantic response schema with:
 
 | Control | Enforcement layer | Evidence |
 |---|---|---|
-| Scope and patient-specific refusal | query transformation / generator | AC-05 tests |
-| Evidence threshold | pipeline | config + AC-05 test |
-| Citation existence and provenance | schema validation | AC-02 and AC-06 tests |
+| Scope and patient-specific refusal | generator preflight | AC-05 tests |
+| Evidence relevance and threshold | generator + pipeline | config + AC-05 test |
+| Citation existence, provenance, and claim support | generation validation | AC-02 and AC-06 tests |
 | Retry then safe failure | Gemini client | NFR-05 test |
 | Provenance-only audit logging | logging utility | NFR-08 test |
 

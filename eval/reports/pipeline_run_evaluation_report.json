@@ -1,0 +1,512 @@
+{
+  "items": [
+    {
+      "id": "Q01",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S2",
+        "CARD-001-S3",
+        "CARD-001-S1",
+        "CARD-001-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q02",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S3"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S3",
+        "ENDO-001-S3",
+        "ID-001-S3",
+        "RHEU-001-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q03",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-004-S2",
+        "CARD-004-S4",
+        "CARD-004-S1",
+        "CARD-004-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q04",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-003-S2",
+        "CARD-001-S5",
+        "CARD-003-S3",
+        "CARD-001-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q05",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-005-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-005-S2",
+        "ENDO-005-S2",
+        "RHEU-005-S2",
+        "RESP-005-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q06",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ENDO-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "ENDO-003-S3",
+        "ENDO-003-S2",
+        "ENDO-001-S2",
+        "CARD-001-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q07",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ENDO-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "ENDO-004-S2",
+        "NEPH-004-S2",
+        "NEPH-002-S2",
+        "CARD-004-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q08",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ENDO-002-S4"
+      ],
+      "retrieved_clause_ids": [
+        "ENDO-002-S3",
+        "ENDO-002-S4",
+        "ENDO-002-S2",
+        "ENDO-002-S1"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q09",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ENDO-005-S4"
+      ],
+      "retrieved_clause_ids": [
+        "ENDO-005-S4",
+        "NEPH-005-S4",
+        "RHEU-005-S4",
+        "CARD-005-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q10",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RESP-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "RESP-004-S2",
+        "NEPH-004-S2",
+        "ID-004-S2",
+        "ENDO-004-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q11",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RESP-004-S3"
+      ],
+      "retrieved_clause_ids": [
+        "RESP-004-S3",
+        "RESP-001-S4",
+        "RESP-001-S1",
+        "RESP-001-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q12",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RESP-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "RESP-003-S2",
+        "RESP-002-S2",
+        "RESP-003-S3",
+        "RESP-003-S1"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q13",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RESP-005-S2"
+      ],
+      "retrieved_clause_ids": [
+        "RESP-005-S2",
+        "RESP-005-S1",
+        "RESP-005-S4",
+        "RESP-005-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q14",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ID-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "ID-003-S2",
+        "ID-003-S1",
+        "RHEU-003-S1",
+        "RESP-003-S1"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q15",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ID-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "ID-004-S2",
+        "RHEU-004-S2",
+        "ENDO-004-S2",
+        "ID-004-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q16",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "NEPH-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "NEPH-004-S2",
+        "NEPH-002-S2",
+        "ENDO-004-S2",
+        "NEPH-004-S1"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q17",
+      "type": "multi_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "NEPH-003-S2",
+        "NEPH-003-S5"
+      ],
+      "retrieved_clause_ids": [
+        "NEPH-003-S5",
+        "NEPH-001-S2",
+        "NEPH-003-S2",
+        "CARD-001-S5"
+      ],
+      "context_precision": 0.5,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q18",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RHEU-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "RHEU-003-S2",
+        "RHEU-003-S3",
+        "RHEU-003-S4",
+        "RHEU-003-S1"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q19",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RHEU-004-S3"
+      ],
+      "retrieved_clause_ids": [
+        "RHEU-004-S3",
+        "RHEU-004-S1",
+        "RHEU-004-S2",
+        "ID-004-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q20",
+      "type": "abstain",
+      "ac_ref": "AC-05",
+      "expected_clause_ids": [],
+      "retrieved_clause_ids": [
+        "CARD-001-S2",
+        "CARD-001-S3",
+        "CARD-001-S4",
+        "CARD-001-S1"
+      ],
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q21",
+      "type": "abstain",
+      "ac_ref": "AC-05",
+      "expected_clause_ids": [],
+      "retrieved_clause_ids": [
+        "ENDO-003-S3",
+        "ENDO-003-S2",
+        "ENDO-001-S2",
+        "ID-003-S2"
+      ],
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q22",
+      "type": "multi_clause",
+      "ac_ref": "AC-07",
+      "expected_clause_ids": [
+        "CARD-001-S3",
+        "CARD-002-S3"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-002-S3",
+        "CARD-002-S2",
+        "CARD-002-S1",
+        "CARD-001-S3"
+      ],
+      "context_precision": 0.5,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q23",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S2",
+        "NEPH-003-S5",
+        "CARD-001-S5",
+        "NEPH-003-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q24",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "CARD-001-S5"
+      ],
+      "retrieved_clause_ids": [
+        "CARD-001-S5",
+        "CARD-001-S3",
+        "CARD-001-S1",
+        "CARD-001-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q25",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ENDO-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "ENDO-004-S2",
+        "NEPH-004-S2",
+        "NEPH-002-S2",
+        "CARD-004-S2"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q26",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RESP-001-S3"
+      ],
+      "retrieved_clause_ids": [
+        "RESP-001-S3",
+        "RESP-001-S1",
+        "RESP-001-S2",
+        "RESP-001-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q27",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "ID-004-S3"
+      ],
+      "retrieved_clause_ids": [
+        "ID-004-S3",
+        "RHEU-004-S3",
+        "RESP-004-S3",
+        "ENDO-004-S3"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q28",
+      "type": "multi_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "NEPH-002-S2",
+        "NEPH-004-S2"
+      ],
+      "retrieved_clause_ids": [
+        "NEPH-004-S2",
+        "NEPH-002-S2",
+        "ENDO-004-S2",
+        "NEPH-004-S1"
+      ],
+      "context_precision": 0.5,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q29",
+      "type": "single_clause",
+      "ac_ref": "AC-02",
+      "expected_clause_ids": [
+        "RHEU-003-S2"
+      ],
+      "retrieved_clause_ids": [
+        "RHEU-003-S2",
+        "RHEU-003-S3",
+        "RHEU-001-S2",
+        "RHEU-003-S4"
+      ],
+      "context_precision": 0.25,
+      "context_recall": 1.0
+    }
+  ],
+  "aggregate": {
+    "context_precision": 0.25862068965517243,
+    "context_recall": 1.0
+  },
+  "generated_at": "2026-08-31T09:51:05.881589+00:00",
+  "evaluation_type": "deterministic_clause_retrieval",
+  "evaluation_scope": "full_golden_set",
+  "question_ids": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q19",
+    "Q20",
+    "Q21",
+    "Q22",
+    "Q23",
+    "Q24",
+    "Q25",
+    "Q26",
+    "Q27",
+    "Q28",
+    "Q29"
+  ],
+  "question_count": 29,
+  "ragas": {
+    "status": "not_run",
+    "reason": "Live RAGAS is disabled for this invocation.",
+    "faithfulness": null,
+    "answer_relevancy": null
+  }
+}

@@ -21,7 +21,7 @@
   },
   {
     "id": "Q03",
-    "question": "A cardiology patient on Cardaprilol develops chest pain lasting 15 minutes on exertion \u2014 does this meet urgent referral criteria?",
+    "question": "According to the synthetic Cardiology Referral Criteria, does chest pain with exertion lasting more than 10 minutes warrant urgent same-day referral?",
     "type": "single_clause",
     "expected_context": [
       "CARD-004-S2"
@@ -61,7 +61,7 @@
   },
   {
     "id": "Q07",
-    "question": "A patient's blood glucose is 380 mg/dL with ketosis \u2014 does this require urgent or routine referral?",
+    "question": "According to the Endocrinology Referral Criteria, does blood glucose of 380 mg/dL with ketosis require urgent same-day referral?",
     "type": "single_clause",
     "expected_context": [
       "ENDO-004-S2"
@@ -91,7 +91,7 @@
   },
   {
     "id": "Q10",
-    "question": "What oxygen saturation level warrants urgent referral for a respiratory patient?",
+    "question": "According to the Respiratory Referral Criteria, what oxygen saturation level warrants urgent referral?",
     "type": "single_clause",
     "expected_context": [
       "RESP-004-S2"
@@ -101,7 +101,7 @@
   },
   {
     "id": "Q11",
-    "question": "A patient with Chronic Airway Restriction Syndrome has had 3 exacerbations requiring oral steroids this year \u2014 does this meet a referral threshold?",
+    "question": "According to the Chronic Airway Restriction Syndrome referral criteria, do three exacerbations requiring oral steroids within one year meet the referral threshold?",
     "type": "single_clause",
     "expected_context": [
       "RESP-004-S3"
@@ -161,7 +161,7 @@
   },
   {
     "id": "Q17",
-    "question": "For two separate scenarios: is bilateral renal artery stenosis a contraindication to Nephrostat, and what renal-safe alternative is specified for a patient who cannot receive Cardaprilol because eGFR is below 30?",
+    "question": "For two guideline criteria: is bilateral renal artery stenosis a contraindication to Nephrostat, and what renal-safe alternative is specified when Cardaprilol is contraindicated below eGFR 30?",
     "type": "multi_clause",
     "expected_context": [
       "NEPH-003-S2",
@@ -219,7 +219,7 @@
   },
   {
     "id": "Q23",
-    "question": "What is the correct Cardaprilol dose for a patient with an eGFR of 38?",
+    "question": "According to the Cardaprilol dosing guidance, what starting dose applies at an eGFR of 38?",
     "type": "single_clause",
     "expected_context": [
       "CARD-001-S2"
@@ -229,7 +229,7 @@
   },
   {
     "id": "Q24",
-    "question": "Can Rhythmostat be used in a pregnant patient with APES?",
+    "question": "According to the APES contraindications, is Rhythmostat recommended during pregnancy?",
     "type": "single_clause",
     "expected_context": [
       "CARD-001-S5"
@@ -239,7 +239,7 @@
   },
   {
     "id": "Q25",
-    "question": "A patient's blood glucose is 360 mg/dL but shows no ketosis \u2014 is this an urgent referral?",
+    "question": "According to the Endocrinology Referral Criteria, does blood glucose of 360 mg/dL without ketosis require urgent referral?",
     "type": "single_clause",
     "expected_context": [
       "ENDO-004-S2"
@@ -259,7 +259,7 @@
   },
   {
     "id": "Q27",
-    "question": "A patient had the same infection site recur twice, 8 months apart \u2014 does this meet the routine referral threshold?",
+    "question": "According to the Infectious Disease Referral Criteria, does recurrence at the same infection site twice within 8 months meet the routine referral threshold?",
     "type": "single_clause",
     "expected_context": [
       "ID-004-S3"
@@ -280,7 +280,7 @@
   },
   {
     "id": "Q29",
-    "question": "A rheumatology patient on Immunoflex has liver enzymes at 2.5x the upper limit of normal \u2014 should the dose simply be reduced?",
+    "question": "According to the Immunoflex safety guidance, what action is recommended when liver enzymes are 2.5 times the upper limit of normal?",
     "type": "single_clause",
     "expected_context": [
       "RHEU-003-S2"

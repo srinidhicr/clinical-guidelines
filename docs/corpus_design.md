@@ -6,7 +6,7 @@ The corpus contains 30 markdown documents: five document types for each of six s
 specialties (Cardiology, Endocrinology, Respiratory Medicine, Infectious Disease,
 Nephrology, and Rheumatology). Every document has a source, specialty, version, issuing
 body, and stable `CLAUSE-ID`-style marker (for example `CARD-001-S2`). The committed
-golden set currently has 22 entries: 15 single-clause, five multi-clause, and two
+golden set currently has 29 entries: 24 single-clause, three multi-clause, and two
 abstention cases. All expected clause IDs resolve to a source document.
 
 No files should be removed at this stage. The corpus meets the 30-document threshold,
