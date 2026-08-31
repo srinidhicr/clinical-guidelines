@@ -72,23 +72,19 @@ the Synthetic-Data Rule. None of it should be interpreted as real clinical guida
 The project's success is measured primarily through the RAG evaluation harness (see
 `eval/reports/`) rather than subjective review:
 
-| Metric | Target | Source |
-|---|---|---|
-| Context precision (RAGAS) | ≥ 0.75 | `eval/ragas_eval.py` |
-| Context recall (RAGAS) | ≥ 0.75 | `eval/ragas_eval.py` |
-| Faithfulness (RAGAS) | ≥ 0.85 | `eval/ragas_eval.py` |
-| Answer relevancy (RAGAS) | ≥ 0.80 | `eval/ragas_eval.py` |
-| Citation presence | 100% of non-abstained answers | manual sample review |
-| Abstention correctness | Correctly abstains on all "abstain"-type golden questions | golden eval set |
-| Ingestion idempotency | Re-running ingestion produces no duplicate index entries | ingestion test suite |
+| Metric | Target | Measured Result | Status | Source |
+|---|---|---|---|---|
+| Context precision (RAGAS) | ≥ 0.75 | **0.902 (90.2%)** | Exceeded | `eval/reports/ragas_groq_report.json` |
+| Context recall (RAGAS) | ≥ 0.75 | **0.931 (93.1%)** | Exceeded | `eval/reports/ragas_groq_report.json` |
+| Faithfulness (RAGAS) | ≥ 0.85 | **0.937 (93.7%)** | Exceeded | `eval/reports/ragas_groq_report.json` |
+| Answer relevancy (RAGAS) | ≥ 0.80 | **0.878 (87.8%)** | Exceeded | `eval/reports/ragas_groq_report.json` |
+| Citation presence | 100% | **100% (27/27)** | Achieved | Golden set validation |
+| Abstention correctness | 100% | **100% (2/2)** | Achieved | Golden set Q20–Q21 |
+| Ingestion idempotency | 100% | **100%** | Achieved | `tests/test_ingestion.py` |
 
-*(Numeric targets above are working goals set before evaluation; actual measured results
-will be recorded in `eval/reports/` and this section updated once the harness has run.)*
+All four measured RAGAS metrics exceeded target thresholds across the 29-question committed golden evaluation set.
 
-If an instructor-authorized Groq judge is used for RAGAS because of Gemini provider
-quota, reports identify Groq as the *evaluation judge* while preserving Gemini as the
-application generation provider. Metrics from different judge providers should not be
-directly compared as though they were the same measurement instrument.
+An instructor-authorized Groq judge (`openai/gpt-oss-20b`) was utilized for RAGAS evaluation to prevent provider quota exhaustion, while preserving Google Gemini as the application generation provider. Detailed evidence is committed under `eval/reports/`.
 
 ## 6. Cost and Latency Considerations (NFR-07)
 

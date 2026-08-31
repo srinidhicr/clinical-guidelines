@@ -73,12 +73,18 @@ def create_groq_judge_llm(
     if client_factory is None:
         from openai import OpenAI
 
-        client_factory = OpenAI
+        client = OpenAI(
+            api_key=api_key,
+            base_url="https://api.groq.com/openai/v1",
+            max_retries=5,
+            timeout=180.0,
+        )
+    else:
+        client = client_factory(api_key=api_key, base_url="https://api.groq.com/openai/v1")
     if llm_builder is None:
         from ragas.llms import llm_factory
 
         llm_builder = llm_factory
-    client = client_factory(api_key=api_key, base_url="https://api.groq.com/openai/v1")
     return llm_builder(
         judge_model,
         provider="openai",
@@ -104,6 +110,17 @@ def _load_checkpoint(path: Path, generation_model: str) -> dict[str, Any]:
         return {"version": 1, "generation_model": generation_model, "items": {}}
     if not isinstance(payload.get("items"), dict):
         return {"version": 1, "generation_model": generation_model, "items": {}}
+    return payload
+
+
+def _load_metrics_checkpoint(path: Path, judge_model: str) -> dict[str, Any]:
+    if not path.exists():
+        return {"version": 1, "judge_model": judge_model, "items": {}}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("version") != 1 or payload.get("judge_model") != judge_model:
+        return {"version": 1, "judge_model": judge_model, "items": {}}
+    if not isinstance(payload.get("items"), dict):
+        return {"version": 1, "judge_model": judge_model, "items": {}}
     return payload
 
 
@@ -165,7 +182,7 @@ def collect_generation_dataset(
         items.append(item)
         if not answer.grounded and entry_type != "abstain":
             raise GenerationStageUnavailable(entry["id"], _generation_audit(pipeline, items, checkpoint_path))
-        if checkpoint is not None and answer.grounded and answer_source == "gemini":
+        if checkpoint is not None and answer_source == "gemini" and (answer.grounded or entry_type == "abstain"):
             checkpoint["items"][entry["id"]] = {
                 "question": entry["question"],
                 "answer": answer.model_dump(),
@@ -232,21 +249,44 @@ def run_groq_ragas(
         timeout=int(evaluation_settings.get("request_timeout_seconds", 180)),
         max_retries=int(evaluation_settings.get("max_retries", 8)),
         max_wait=int(evaluation_settings.get("max_wait_seconds", 60)),
-        max_workers=int(evaluation_settings.get("max_workers", 1)),
+        max_workers=int(evaluation_settings.get("max_workers", 4)),
     )
-    result = ragas_evaluate(
-        Dataset.from_dict(dataset_rows),
-        metrics=[
-            ContextPrecision(llm=judge_llm),
-            ContextRecall(llm=judge_llm),
-            Faithfulness(llm=judge_llm),
-            AnswerRelevancy(llm=judge_llm, embeddings=embeddings, strictness=1),
-        ],
-        llm=judge_llm,
-        embeddings=embeddings,
-        run_config=run_config,
-        raise_exceptions=True,
-    )
+    metrics_checkpoint_path = report_dir / "groq_ragas_metrics_checkpoint.json"
+    metrics_checkpoint = _load_metrics_checkpoint(metrics_checkpoint_path, judge_model)
+
+    pending_indices = [
+        i for i, entry in enumerate(entries) if entry["id"] not in metrics_checkpoint["items"]
+    ]
+
+    if pending_indices:
+        batch_size = int(evaluation_settings.get("batch_size", 5))
+        for b_start in range(0, len(pending_indices), batch_size):
+            batch_idx = pending_indices[b_start : b_start + batch_size]
+            batch_entries = [entries[i] for i in batch_idx]
+            batch_dataset = {k: [dataset_rows[k][i] for i in batch_idx] for k in dataset_rows}
+            batch_result = ragas_evaluate(
+                Dataset.from_dict(batch_dataset),
+                metrics=[
+                    ContextPrecision(llm=judge_llm),
+                    ContextRecall(llm=judge_llm),
+                    Faithfulness(llm=judge_llm),
+                    AnswerRelevancy(llm=judge_llm, embeddings=embeddings, strictness=1),
+                ],
+                llm=judge_llm,
+                embeddings=embeddings,
+                run_config=run_config,
+                raise_exceptions=True,
+            )
+            batch_payload = _ragas_result_payload(batch_result, batch_entries)
+            for item in batch_payload["items"]:
+                metrics_checkpoint["items"][item["id"]] = item
+            _write_json_atomically(metrics_checkpoint_path, metrics_checkpoint)
+
+    all_item_scores = [metrics_checkpoint["items"][entry["id"]] for entry in entries]
+    aggregate = {
+        metric: sum(item[metric] for item in all_item_scores) / len(all_item_scores)
+        for metric in REQUIRED_RAGAS_METRICS
+    }
     return {
         "status": "completed",
         "judge_provider": "groq",
@@ -255,8 +295,10 @@ def run_groq_ragas(
         "embedding_model": pipeline.settings["embedding"]["model_name"],
         "generation_audit_report": "eval/reports/groq_ragas_generation_audit.json",
         "generation_checkpoint": "eval/reports/groq_ragas_generation_checkpoint.json",
+        "metrics_checkpoint": "eval/reports/groq_ragas_metrics_checkpoint.json",
         "question_count": len(entries),
-        **_ragas_result_payload(result, entries),
+        "items": all_item_scores,
+        "aggregate": aggregate,
     }
 
 

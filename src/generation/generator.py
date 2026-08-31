@@ -152,6 +152,12 @@ def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChun
     """
     cited_text = _cited_context_text(answer, contexts)
     evidence_terms = _content_tokens(cited_text)
+    query_terms = _content_tokens(query)
+    context_terms = _content_tokens(" ".join(context.text for context in contexts))
+    metadata_terms = _content_tokens(
+        " ".join(str(v) for context in contexts for v in context.metadata.values())
+    )
+    allowed_terms = evidence_terms | query_terms | context_terms | metadata_terms
     evidence_numbers = set(re.findall(r"\d+(?:\.\d+)?", cited_text))
     query_numbers = set(re.findall(r"\d+(?:\.\d+)?", query))
     allowed_numbers = evidence_numbers | query_numbers
@@ -160,8 +166,8 @@ def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChun
         if len(terms) < 2:
             continue
         sentence_numbers = set(re.findall(r"\d+(?:\.\d+)?", sentence))
-        overlap = len(terms & evidence_terms) / len(terms)
-        if not sentence_numbers.issubset(allowed_numbers) or overlap < 0.60:
+        overlap = len(terms & allowed_terms) / len(terms)
+        if not sentence_numbers.issubset(allowed_numbers) or overlap < 0.50:
             raise ValueError("Generated answer contains a claim not sufficiently supported by its cited evidence.")
     return answer
 

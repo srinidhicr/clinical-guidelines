@@ -36,12 +36,11 @@ evaluation:
   report_dir: eval/reports
   judge_model: gemini-3.5-flash
   # Groq is an instructor-authorized RAGAS judge alternative; generation stays Gemini.
-  groq_judge_model: openai/gpt-oss-20b
-  # RAGAS faithfulness uses structured output; GPT-OSS needs room for reasoning plus JSON.
+  groq_judge_model: qwen/qwen3.8-27b
   groq_judge_max_tokens: 4096
   groq_judge_reasoning_effort: low
   embedding_model: gemini-embedding-001
-  max_workers: 1
+  max_workers: 4
   max_retries: 8
   max_wait_seconds: 60
   request_timeout_seconds: 180

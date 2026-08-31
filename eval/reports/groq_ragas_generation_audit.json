@@ -1,19 +1,276 @@
 {
-  "generated_at": "2026-08-31T11:55:13.084503+00:00",
+  "generated_at": "2026-08-31T16:03:22.824181+00:00",
   "generation_model": "gemini-3.6-flash",
   "checkpoint": "/Users/srinidhicr/PROJECTS/clinical-guidelines-assistant/Clinical-Guidelines-Assistant/eval/reports/groq_ragas_generation_checkpoint.json",
-  "question_count": 1,
-  "grounded_answer_count": 0,
-  "abstained_answer_count": 1,
-  "reused_checkpoint_answer_count": 0,
-  "new_generation_answer_count": 1,
+  "question_count": 29,
+  "grounded_answer_count": 27,
+  "abstained_answer_count": 2,
+  "reused_checkpoint_answer_count": 29,
+  "new_generation_answer_count": 0,
   "items": [
     {
+      "id": "Q01",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q02",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q03",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q04",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q05",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-005-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q06",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ENDO-001-S2",
+        "ENDO-003-S2",
+        "ENDO-003-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q07",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ENDO-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q08",
+      "grounded": true,
+      "grounding_confidence": 0.95,
+      "citation_clause_ids": [
+        "ENDO-002-S4",
+        "ENDO-002-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q09",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ENDO-005-S4"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q10",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RESP-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
       "id": "Q11",
+      "grounded": true,
+      "grounding_confidence": 0.95,
+      "citation_clause_ids": [
+        "RESP-004-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q12",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RESP-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q13",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RESP-005-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q14",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ID-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q15",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ID-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q16",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "NEPH-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q17",
+      "grounded": true,
+      "grounding_confidence": 0.95,
+      "citation_clause_ids": [
+        "NEPH-003-S5",
+        "NEPH-001-S2",
+        "NEPH-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q18",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RHEU-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q19",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RHEU-004-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q20",
       "grounded": false,
       "grounding_confidence": 0.0,
       "citation_clause_ids": [],
-      "source": "gemini"
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q21",
+      "grounded": false,
+      "grounding_confidence": 0.0,
+      "citation_clause_ids": [],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q22",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S3",
+        "CARD-002-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q23",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S2",
+        "CARD-003-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q24",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "CARD-001-S5"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q25",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ENDO-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q26",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RESP-001-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q27",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "ID-004-S3"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q28",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "NEPH-004-S2"
+      ],
+      "source": "checkpoint"
+    },
+    {
+      "id": "Q29",
+      "grounded": true,
+      "grounding_confidence": 1.0,
+      "citation_clause_ids": [
+        "RHEU-003-S2"
+      ],
+      "source": "checkpoint"
     }
   ]
 }

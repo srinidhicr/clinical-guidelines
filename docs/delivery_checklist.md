@@ -44,11 +44,11 @@ in the repository; it is not considered verified until its associated test has p
 
 - [x] Golden-set structure and traceability test
 - [x] Re-runnable deterministic pipeline evaluation runner
-- [ ] Run and commit RAGAS report with all four required metrics (implementation complete; live run pending)
+- [x] Run and commit RAGAS report with all four required metrics (completed: `eval/reports/ragas_groq_report.json`)
 - [x] Deterministic failure-taxonomy runner for retrieval, grounding, synthesis, and abstention risks
-- [ ] Commit the taxonomy report generated from the completed full-golden-set RAGAS report
+- [x] Commit the taxonomy report generated from the completed full-golden-set RAGAS report (`eval/reports/failure_taxonomy_report.json`)
 - [x] Two-Gemini-model comparison runner with a documented, grounding-first selection rule
-- [ ] Commit completed full-golden-set per-model reports and comparison/selection report
+- [x] Commit completed full-golden-set per-model reports and comparison/selection report (`eval/reports/llm_comparison_report.json`)
 - [x] Evaluation-harness tests — passed locally
 
 ## Engineering and handoff — NFR-01 to NFR-07
@@ -59,5 +59,5 @@ in the repository; it is not considered verified until its associated test has p
 - [x] Minimal CLI interface
 - [x] README setup, single-command run, architecture, and limitations
 - [x] Cost/latency note based on representative query (Q01)
-- [ ] Full test run, generated index, reports, and final acceptance audit
+- [x] Full test run, generated index, reports, and final acceptance audit
 - [ ] At least three PR-driven merge commits (complete in GitLab workflow)

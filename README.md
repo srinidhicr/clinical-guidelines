@@ -23,8 +23,8 @@ prescribing, or patient-specific treatment advice.
   retrieval diagnostics plus Gemini-judged RAGAS metrics.
 
 Read [the business case](docs/business_case.md), [guardrail policy](docs/guardrail_policy.md),
-and [acceptance criteria](specs/acceptance_criteria.md) for the full rationale and
-traceability.
+[embedding selection note](docs/embedding_selection.md), and [acceptance criteria](specs/acceptance_criteria.md)
+for the full rationale and traceability.
 
 ## Architecture
 
