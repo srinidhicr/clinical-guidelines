@@ -10,17 +10,18 @@ import re
 from dataclasses import dataclass
 
 SYNTHETIC_ACRONYM_MAP = {
-    "APES": "Arterial Pressure Elevation Syndrome",
+    "APES": "Stage 2 Arterial Pressure Elevation Syndrome",
     "CRID": "Chronic Rhythm Irregularity Disorder",
-    "CARS": "Chronic Airway Restriction Syndrome",
-    "GDS": "Glycemic Dysregulation Syndrome",
+    "GDS": "Type S Glycemic Dysregulation Syndrome",
     "THID": "Thyroid Hormone Imbalance Disorder",
-    "SMRS": "Severe Microbial Resistance Syndrome",
-    "RSTID": "Recurrent Soft Tissue Infection Disorder",
-    "PRFDS": "Progressive Renal Filtration Deficit Syndrome",
-    "ERD": "Early Renal Dysfunction",
+    "SMRS": "Systemic Microbial Response Syndrome",
+    "RSTID": "Recurrent Soft-Tissue Infection Disorder",
+    "PRFDS": "Progressive Renal Filtration Decline Syndrome",
+    "ERD": "Electrolyte Regulation Disorder",
+    "CARS": "Chronic Airway Restriction Syndrome",
+    "RBID": "Recurrent Bronchial Inflammation Disorder",
     "CJIS": "Chronic Joint Inflammation Syndrome",
-    "ACTD": "Acute Connective Tissue Disorder",
+    "ACTD": "Autoimmune Connective Tissue Disorder",
 }
 
 

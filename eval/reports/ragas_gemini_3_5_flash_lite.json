@@ -1,0 +1,23 @@
+{
+  "evaluation_type": "deterministic_retrieval_and_ragas",
+  "evaluation_scope": "full_golden_set",
+  "generation_model": "gemini-3.5-flash-lite",
+  "judge_model": "openai/gpt-oss-20b",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "generated_at": "2026-08-31T17:00:00.000000+00:00",
+  "question_count": 29,
+  "ragas": {
+    "status": "completed",
+    "judge_provider": "groq",
+    "judge_model": "openai/gpt-oss-20b",
+    "embedding_provider": "local_sentence_transformer",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "question_count": 29,
+    "aggregate": {
+      "context_precision": 0.8850574712643678,
+      "context_recall": 0.896551724137931,
+      "faithfulness": 0.896551724137931,
+      "answer_relevancy": 0.852140192847192
+    }
+  }
+}

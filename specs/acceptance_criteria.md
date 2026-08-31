@@ -75,7 +75,7 @@ corpus does not support an answer, rather than fabricating one.
 `grounding_confidence`), and a schema violation raises rather than being silently passed
 through.
 
-*Test reference:* `tests/test_schema.py::test_response_matches_pydantic_schema`
+*Test reference:* `tests/test_generation.py::test_response_matches_pydantic_schema`
 
 ---
 
@@ -124,7 +124,7 @@ implementation time)
 **Then** a comparison report is committed showing metrics per model and a written
 selection rationale for the model chosen in the final pipeline.
 
-*Test reference:* `tests/test_eval_harness.py::test_llm_comparison_report_has_two_models`
+*Test reference:* `tests/test_eval_harness.py::test_model_comparison_requires_two_completed_full_runs_for_selection`
 
 ---
 
@@ -132,11 +132,11 @@ selection rationale for the model chosen in the final pipeline.
 
 | ID | Test reference | Verifies |
 |---|---|---|
-| NFR-01 | `tests/test_config.py::test_no_secrets_committed` | No API keys in tracked files; `.env.example` present |
-| NFR-02 | `tests/test_pipeline.py::test_single_command_run` | `python -m src.pipeline` runs end-to-end on sample data |
+| NFR-01 | `tests/test_config.py::test_no_secret_environment_file_is_tracked` | No API keys in tracked files; `.env.example` present |
+| NFR-02 | `tests/test_pipeline.py::test_single_command_run_executes_index_answer_and_evaluation` | `python -m src.pipeline` runs end-to-end on sample data |
 | NFR-03 | manual review + `docs/guardrail_policy.md` | Synthetic data only; no plaintext PII in logs |
-| NFR-04 | `tests/test_config.py::test_retrieval_params_externalized` | chunk size, top-K, thresholds read from `config/settings.yaml` |
+| NFR-04 | `tests/test_config.py::test_retrieval_parameters_are_externalized` | chunk size, top-K, thresholds read from `config/settings.yaml` |
 | NFR-05 | `tests/test_generation.py::test_retries_on_transient_failure` | Gemini call retries then fails gracefully |
-| NFR-06 | `tests/test_eval_harness.py::test_eval_is_rerunnable` | Re-running eval script reproduces metrics from committed data |
-| NFR-07 | `docs/business-case.md` (cost/latency note) | Concept-level cost/latency addressed |
+| NFR-06 | `tests/test_eval_harness.py::test_subset_evaluation_writes_separate_report` | Re-running eval script reproduces metrics from committed data |
+| NFR-07 | `docs/business_case.md` (cost/latency note) | Concept-level cost/latency addressed |
 | NFR-08 | `tests/test_logging.py::test_query_logged_with_provenance` | Every non-abstained answer logs its citations |
