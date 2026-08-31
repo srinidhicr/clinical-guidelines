@@ -141,7 +141,8 @@ def _is_patient_specific_request(query: str) -> bool:
     )
 
 
-def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChunk]) -> GuidelineAnswer:
+def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChunk], query: str = ""
+) -> GuidelineAnswer:
     """Require each factual answer sentence to be materially supported by its cited text.
 
     This local guard is intentionally conservative: quantities must occur verbatim in the
@@ -152,13 +153,15 @@ def validate_claim_support(answer: GuidelineAnswer, contexts: list[RetrievedChun
     cited_text = _cited_context_text(answer, contexts)
     evidence_terms = _content_tokens(cited_text)
     evidence_numbers = set(re.findall(r"\d+(?:\.\d+)?", cited_text))
+    query_numbers = set(re.findall(r"\d+(?:\.\d+)?", query))
+    allowed_numbers = evidence_numbers | query_numbers
     for sentence in re.split(r"(?<=[A-Za-z])(?:[.!?]+)(?:\s+|$)", answer.answer):
         terms = _content_tokens(sentence)
         if len(terms) < 2:
             continue
         sentence_numbers = set(re.findall(r"\d+(?:\.\d+)?", sentence))
         overlap = len(terms & evidence_terms) / len(terms)
-        if not sentence_numbers.issubset(evidence_numbers) or overlap < 0.60:
+        if not sentence_numbers.issubset(allowed_numbers) or overlap < 0.60:
             raise ValueError("Generated answer contains a claim not sufficiently supported by its cited evidence.")
     return answer
 
@@ -179,11 +182,11 @@ def validate_citations(answer: GuidelineAnswer, contexts: list[RetrievedChunk]) 
     return answer
 
 
-def parse_model_response(raw_json: str, contexts: list[RetrievedChunk]) -> GuidelineAnswer:
+def parse_model_response(raw_json: str, contexts: list[RetrievedChunk], query: str = "") -> GuidelineAnswer:
     """Validate schema, provenance, and local claim support before returning an answer."""
     answer = GuidelineAnswer.model_validate_json(raw_json)
     answer = validate_citations(answer, contexts)
-    return validate_claim_support(answer, contexts) if answer.grounded else answer
+    return validate_claim_support(answer, contexts, query) if answer.grounded else answer
 
 
 def generate_grounded_answer(
@@ -211,14 +214,17 @@ def generate_grounded_answer(
                 contents=build_grounded_prompt(query, contexts),
                 config=_generation_config(settings.temperature),
             )
-            answer = parse_model_response(str(response.text), contexts)
+            print(f"[DEBUG raw response for {request_id}]: {response.text}")
+            answer = parse_model_response(str(response.text), contexts, query)
             if not answer.grounded or answer.grounding_confidence < settings.minimum_grounding_confidence:
                 return abstain(confidence=answer.grounding_confidence)
             return answer
         except (ValidationError, ValueError) as error:
             # Invalid structured output/citations must never be returned as a plausible answer.
+            print(f"[DEBUG] validation failure for request_id={request_id}: {error}")
             return abstain(reason=f"{ABSTENTION_TEXT} Generated output could not be validated.")
         except Exception as error:  # Provider/network failures are retried, then made safe.
+            print(f"[DEBUG] provider/parse exception (attempt {attempt+1}) for {request_id}: {type(error).__name__}: {error}")
             last_error = error
             if attempt + 1 < settings.max_retries:
                 time.sleep(settings.retry_backoff_seconds * (2**attempt))

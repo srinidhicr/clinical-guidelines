@@ -106,8 +106,8 @@
       "retrieved_clause_ids": [
         "ENDO-004-S2",
         "NEPH-004-S2",
-        "NEPH-002-S2",
-        "CARD-004-S3"
+        "CARD-004-S2",
+        "RHEU-004-S2"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -154,8 +154,8 @@
       "retrieved_clause_ids": [
         "RESP-004-S2",
         "NEPH-004-S2",
-        "ID-004-S2",
-        "ENDO-004-S2"
+        "ENDO-004-S2",
+        "ID-004-S2"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -170,7 +170,7 @@
       "retrieved_clause_ids": [
         "RESP-004-S3",
         "RESP-001-S4",
-        "RESP-001-S1",
+        "ID-004-S3",
         "RESP-001-S3"
       ],
       "context_precision": 0.25,
@@ -361,7 +361,7 @@
         "CARD-001-S2",
         "NEPH-003-S5",
         "CARD-001-S5",
-        "NEPH-003-S2"
+        "CARD-003-S2"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -376,7 +376,7 @@
       "retrieved_clause_ids": [
         "CARD-001-S5",
         "CARD-001-S3",
-        "CARD-001-S1",
+        "CARD-003-S2",
         "CARD-001-S2"
       ],
       "context_precision": 0.25,
@@ -392,8 +392,8 @@
       "retrieved_clause_ids": [
         "ENDO-004-S2",
         "NEPH-004-S2",
-        "NEPH-002-S2",
-        "CARD-004-S2"
+        "ENDO-004-S3",
+        "ENDO-004-S4"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -423,9 +423,9 @@
       ],
       "retrieved_clause_ids": [
         "ID-004-S3",
-        "RHEU-004-S3",
-        "RESP-004-S3",
-        "ENDO-004-S3"
+        "ID-004-S4",
+        "ID-004-S2",
+        "RHEU-004-S3"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -458,7 +458,7 @@
         "RHEU-003-S2",
         "RHEU-003-S3",
         "RHEU-001-S2",
-        "RHEU-003-S4"
+        "NEPH-005-S4"
       ],
       "context_precision": 0.25,
       "context_recall": 1.0
@@ -468,7 +468,7 @@
     "context_precision": 0.25862068965517243,
     "context_recall": 1.0
   },
-  "generated_at": "2026-08-31T10:16:15.167263+00:00",
+  "generated_at": "2026-08-31T11:51:26.135963+00:00",
   "evaluation_type": "deterministic_retrieval_and_groq_ragas",
   "evaluation_scope": "full_golden_set",
   "question_ids": [
@@ -505,8 +505,8 @@
   "question_count": 29,
   "ragas": {
     "status": "generation_incomplete",
-    "reason": "Gemini did not produce a grounded answer for Q07.",
-    "failed_question_id": "Q07",
+    "reason": "Gemini did not produce a grounded answer for Q11.",
+    "failed_question_id": "Q11",
     "generation_audit_report": "eval/reports/groq_ragas_generation_audit.json",
     "generation_checkpoint": "eval/reports/groq_ragas_generation_checkpoint.json"
   }
